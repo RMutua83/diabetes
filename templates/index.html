@@ -8,10 +8,10 @@
     <header>
         <nav>
             <ul>
-                <li><a href="/templates/index.html">Home</a></li>
-                <li><a href="/templates/login.html">Login</a></li>
-                <li><a href="/templates/register.html">Register</a></li>
-                <li><a href="/templates/prediction.html">Prediction</a></li>
+                <li><a href="{{ url_for('home') }}">Home</a></li>
+                <!--<li><a href="{{ url_for('login') }}">Login</a></li>-->
+                <li><a href="{{ url_for('register') }}">Register</a></li>
+                <li><a href="{{ url_for('prediction') }}">Prediction</a></li>
             </ul>
         </nav>
     </header>

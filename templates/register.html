@@ -3,10 +3,11 @@
     <title>Registration Page</title>
     <link rel="stylesheet" href="/static/register.css">
 </head>
-<head>
+<body>
+
     <h1>Registration Page</h1>
     <div>
-        <form action="/php/register.php" method="POST">
+        <form action="/register" method="POST">
             <ul>
                 <label for="id">ID :</label>
                 <input type="number" id="id" name="id" placeholder="Enter your ID">
@@ -27,8 +28,9 @@
             </ul>
             <input type="submit" value="Register">
        </form>
+       <li><a href="{{ url_for('login') }}">Login</a></li>
     </div>
     <footer>Copyright by Ryan&Sc Foundation</footer>
 
-</head>
+</body>
 </html>
