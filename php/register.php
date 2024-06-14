@@ -1,6 +1,9 @@
-<?php
-$id = $name = $email = $password = "";
+<!DOCTYPE html>
+<html lang="en">
+<body>
 
-if ($_SERVER["Request_method"] == "GET")
+<p>Welcome <?php echo $_POST["name"]; ?><br></p>
+<p>Your email address is: <?php echo $_POST["email"]; ?></p>
 
-?>
+</body>
+</html>
