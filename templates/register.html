@@ -10,24 +10,25 @@
         <form action="/register" method="POST">
             <ul>
                 <label for="id">ID :</label>
-                <input type="number" id="id" name="id" placeholder="Enter your ID">
+                <input type="number" id="id" name="id" placeholder="Enter your ID" required>
             </ul>
             <ul>
                 <label for="name">Name :</label>
-                <input type="text" id="name" name="name" placeholder="Enter your name">
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
             </ul>
             
             <ul>
                 <label for="email">Email :</label>
-                <input type="email" id="email" name="email" placeholder="Enter you email">
+                <input type="email" id="email" name="email" placeholder="Enter you email" required>
             </ul>
             
             <ul>
                 <label for="password">Password :</label>
-                <input type="password" id="password" name="password" placeholder="Enter your password">
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
             </ul>
             <input type="submit" value="Register">
        </form>
+      
        <li><a href="{{ url_for('login') }}">Login</a></li>
     </div>
     <footer>Copyright by Ryan&Sc Foundation</footer>

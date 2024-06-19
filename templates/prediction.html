@@ -6,46 +6,51 @@
 <body>
     <h1>Prediction Page</h1>
      <p>Hey, Ensure to test the patient and then enter the test details in the right inputs</p>
+
+     {% if prediction_message %}
+     <p style="font-weight: bold;">{{ prediction_message }}</p>
+     {% endif %}
+
     <form action="/prediction" method="POST">
         <ul>
             <li>
                 <label for="number of pregnancies">Number of pregnancies :</label>
-                <input type="number" id="number of pregnancies" name="number of pregnancies" placeholder="Pregnancies">
+                <input type="number" id="pregnancies" name="pregnancies" placeholder="Pregnancies" step="any" required><br>
             </li>
 
             <li>
                 <label for="glucose level">Glucose level :</label>
-                <input type="number" id="glucose level" name="glucose level" placeholder="Glucose_level">
+                <input type="number" id="glucose" name="glucose" placeholder="Glucose_level" step="any" required><br>
             </li>
 
             <li>
                 <label for="blood pressure">Blood pressure :</label>
-                <input type="number" id="blood pressure" name="blood pressure" placeholder="Blood_pressure">
+                <input type="number" id="BP" name="BP" placeholder="Blood_pressure" step="any" required><br>
             </li>
 
             <li>
                 <label for="skin_thickness">Skin thickness :</label>
-                <input type="number" id="skin_thickness" name="skin_thickness" placeholder="Skin_thickness">
+                <input type="number" id="ST" name="ST" placeholder="Skin_thickness" step="any" required><br>
             </li>
 
             <li>
                 <label for="insulin_levels">Insulin levels :</label>
-                <input type="number" id="insulin_levels" name="insulin_levels" placeholder="Insulin_levels">
+                <input type="number" id="insulin" name="insulin" placeholder="Insulin_levels" step="any" required><br>
             </li>
 
             <li>
                 <label for="BMI">Body Mass index (BMI) :</label>
-                <input type="number" id="BMI" name="BMI" placeholder="BMI">
+                <input type="number" id="BMI" name="BMI" placeholder="BMI" step="any" required><br>
             </li>
 
             <li>
                 <label for="Diabetes_Pedigree_Function">Diabetes Pedigree Function :</label>
-                <input type="number" id="Diabetes_Pedigree_Function" name="Diabetes_Pedigree_Function" placeholder="Diabetes_Pedigree">
+                <input type="number" id="DPF" name="DPF" placeholder="Diabetes_Pedigree" step="any" required><br>
             </li>
 
             <li>
                 <label for="Age">Age :</label>
-                <input type="number" id="Age" name="Age" placeholder="Age">
+                <input type="number" id="age" name="age" placeholder="Age" step="any" required><br>
             </li>
 
 
@@ -54,8 +59,11 @@
 
         <input type="submit" value="Predict">
         <input type="submit" value="Save">
+
+        
           
     </form>
+    Result:{{result2}}
 
     <footer>Copyright by Ryan&Sc Foundation</footer>
 </body>
