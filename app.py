@@ -1,10 +1,10 @@
 from flask import Flask, render_template, request, redirect, url_for, session, flash
 from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import MinMaxScaler   
+from sklearn.preprocessing import MinMaxScaler
 from imblearn.combine import SMOTEENN
 from joblib import dump, load
 from sklearn.svm import SVC
-import mysql.connector 
+import mysql.connector
 import pandas as pd
 import numpy as np
 import os
@@ -47,9 +47,9 @@ else:
 try:
     db = mysql.connector.connect(
         host="localhost",
-        user="root",           
-        password="",           
-        database="users"
+        user="root",
+        password="",  
+        database="diabetespred"
     )
 
     if db.is_connected():
@@ -61,24 +61,22 @@ except mysql.connector.Error as e:
     db = None
 
 # Function to insert user registration data into the database
-def registration(user_id, name, email, password):
+def registration(id, name, email, password):
     try:
-        query = "INSERT INTO tbl_users (id, name, email, password) VALUES (%s, %s, %s, %s)"
-        cursor.execute(query, (user_id, name, email, password))
+        query = "INSERT INTO users (id, name, email, password) VALUES (%s, %s, %s, %s)"
+        cursor.execute(query, (id, name, email, password))
         db.commit()
-        flash('You have successfully registered!', 'success')
-
+        flash('You have successfully registered! Please log in.', 'success')
     except mysql.connector.Error as e:
         flash(f"Error while inserting data into MySQL: {e}", 'danger')
 
 # Function to verify user credentials during login
-def verify(user_id, password):
+def verify(id, password):
     try:
-        query = "SELECT * FROM tbl_users WHERE id = %s AND password = %s"
-        cursor.execute(query, (user_id, password))
+        query = "SELECT * FROM users WHERE id = %s AND password = %s"
+        cursor.execute(query, (id, password))
         user = cursor.fetchone()
         return user
-
     except mysql.connector.Error as e:
         print(f"Error while querying MySQL: {e}")
         return None
@@ -96,7 +94,6 @@ def register():
 
     return render_template('register.html')
 
-
 @app.route('/login', methods=['GET', 'POST'])
 def login():
     if request.method == 'POST':
@@ -108,7 +105,7 @@ def login():
         if user:
             session['user_id'] = user[0]  # Store user ID in session
             flash('Login successful!', 'success')
-            return redirect(url_for('home'))
+            return redirect(url_for('prediction'))
         else:
             flash('Invalid credentials. Please try again.', 'danger')
 
@@ -120,8 +117,13 @@ def home():
 
 @app.route('/prediction', methods=['GET', 'POST'])
 def prediction():
+    if 'user_id' not in session:
+        flash('Please log in first.', 'danger')
+        return redirect(url_for('login'))
+
     if request.method == 'POST':
         try:
+            patient_id = session['user_id']  # Use logged-in user's ID as patient ID
             val1 = float(request.form['pregnancies'])
             val2 = float(request.form['glucose'])
             val3 = float(request.form['BP'])
@@ -137,6 +139,15 @@ def prediction():
 
             result = "Positive" if my_prediction[0] == 1 else "Negative"
 
+            # Store prediction result in database
+            try:
+                query = "INSERT INTO predictions (patient_id, pregnancies, glucose, blood_pressure, skin_thickness, insulin, bmi, diabetes_pedigree, age, result) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
+                cursor.execute(query, (patient_id, val1, val2, val3, val4, val5, val6, val7, val8, result))
+                db.commit()
+                flash('Prediction result stored successfully!', 'success')
+            except mysql.connector.Error as e:
+                flash(f"Error while inserting prediction into MySQL: {e}", 'danger')
+
             return render_template('result.html', result=result)
         except ValueError:
             flash('Invalid input. Please enter valid numerical values.', 'danger')
@@ -145,12 +156,22 @@ def prediction():
 
 @app.route('/logout')
 def logout():
-    session.pop('user_id', None)
+    session.pop('id', None)
     return redirect(url_for('home'))
 
 @app.route('/result')
 def result():
     return render_template('result.html')
+
+@app.route('/report')
+def report():
+    try:
+        cursor.execute("SELECT * FROM predictions")
+        predictions = cursor.fetchall()
+        return render_template('report.html', predictions=predictions)
+    except mysql.connector.Error as e:
+        flash(f"Error while fetching predictions from MySQL: {e}", 'danger')
+        return redirect(url_for('home'))
 
 if __name__ == '__main__':
     app.run(debug=True)

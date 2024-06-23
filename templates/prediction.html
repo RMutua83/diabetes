@@ -4,6 +4,9 @@
     <link rel="stylesheet" href="/static/prediction.css">
 </head>
 <body>
+    <nav>
+        <li><a href="{{ url_for('report') }}">Report</a></li>
+    </nav>
     <h1>Prediction Page</h1>
      <p>Hey, Ensure to test the patient and then enter the test details in the right inputs</p>
 
@@ -13,6 +16,11 @@
 
     <form action="/prediction" method="POST">
         <ul>
+            <li>
+                <label for="patient_id">Patient_id :</label>
+                <input type="text" id="patient_id" name="patient_id" placeholder="patient_id" step="any" required><br>
+            </li>
+
             <li>
                 <label for="number of pregnancies">Number of pregnancies :</label>
                 <input type="number" id="pregnancies" name="pregnancies" placeholder="Pregnancies" step="any" required><br>

@@ -11,10 +11,13 @@
     <div>
         {% if result %}
         <p>Your diabetes test result is: <strong>{{ result }}</strong></p>
+        <form action="/report" method="get">
+            <input type="submit" value="View Report">
+        </form>
         {% else %}
         <p>No result available.</p>
         {% endif %}
-        <input type="submit" value="Download">
+        <input type="submit" value="report">
     </div>
 
     <footer> Copyright by Ryan&Sc Foundation </footer>
