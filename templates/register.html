@@ -4,34 +4,18 @@
     <link rel="stylesheet" href="/static/register.css">
 </head>
 <body>
-    <div class="container">
-    <h1>Registration Page</h1>
-    <div class="profile-pic"></div>
+    <h1 class="page-title">Registration Page</h1>
+    <div class="form-container register">
+        
         <form action="/register" method="POST">
-            <ul>
-                <label for="id">ID :</label>
-                <input type="number" id="id" name="id" placeholder="Enter your ID" required>
-            </ul>
-            <ul>
-                <label for="name">Name :</label>
-                <input type="text" id="name" name="name" placeholder="Enter your name" required>
-            </ul>
-            
-            <ul>
-                <label for="email">Email :</label>
-                <input type="email" id="email" name="email" placeholder="Enter you email" required>
-            </ul>
-            
-            <ul>
-                <label for="password">Password :</label>
-                <input type="password" id="password" name="password" placeholder="Enter your password" required>
-            </ul>
+            <input type="number" id="id" name="id" placeholder="Enter your ID" required>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
             <input type="submit" value="Register">
-       </form>
-      
-       <li><a href="{{ url_for('login') }}">Login</a></li>
+        </form>
+        <a href="{{ url_for('login') }}">Login</a>
     </div>
-    <footer>Copyright by Ryan&Sc Foundation</footer>
-
+    <footer>Copyright by Ryan&Scott Foundation</footer>
 </body>
 </html>

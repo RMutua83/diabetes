@@ -1,14 +1,16 @@
 <!DOCTYPE html>
+<html lang="en">
+
 <head>
-    <title>DiabetesPred</title>
     <link rel="stylesheet" href="/static/style.css">
+    <title>DiabetesPred</title>
 </head>
+
 <body>
 
-    <h1>Diabetes Prediction Model</h1>
     <header>
         <nav>
-            
+            <h1>Diabetes Prediction Model</h1>
             <ul>
                 <li><a href="{{ url_for('home') }}">Home</a></li>
                 <!--<li><a href="{{ url_for('login') }}">Login</a></li>-->
@@ -18,11 +20,86 @@
         </nav>
     </header>
 
-    <div>
-        <h2>Welcome</h2>
-        <p>Start of by key in credentials to access the model</p>
+    <div class="container">
+      
+
+        <section id="overview">
+            <h2>Overview of Diabetes</h2>
+            <p>
+                Diabetes is a chronic condition that affects how your body turns food into energy. There are three main
+                types of diabetes: type 1, type 2, and gestational diabetes.
+            </p>
+        </section>
+
+        <section id="symptoms">
+            <h2>Symptoms of Diabetes</h2>
+            <ul>
+                <li>Increased thirst</li>
+                <li>Frequent urination</li>
+                <li>Extreme hunger</li>
+                <li>Unexplained weight loss</li>
+                <li>Fatigue</li>
+                <li>Blurred vision</li>
+                <li>Slow-healing sores</li>
+                <li>Frequent infections</li>
+            </ul>
+        </section>
+
+        <section id="causes">
+            <h2>Causes of Diabetes</h2>
+            <p>
+                Diabetes occurs when your body doesn't produce enough insulin or can't effectively use the insulin it
+                does produce. The exact cause of diabetes varies by type:
+            </p>
+            <ul>
+                <li>Type 1 diabetes: Result of immune system attacking insulin-producing cells in the pancreas.</li>
+                <li>Type 2 diabetes: Combination of genetic and lifestyle factors.</li>
+                <li>Gestational diabetes: Hormonal changes during pregnancy.</li>
+            </ul>
+        </section>
+
+        <section id="next-steps">
+            <h2>Next Steps if Diagnosed</h2>
+            <p>
+                If diagnosed with diabetes, it's important to work closely with your healthcare team to manage blood
+                sugar levels. This may involve:
+            </p>
+            <ul>
+                <li>Monitoring blood sugar levels regularly.</li>
+                <li>Following a healthy diet and exercise plan.</li>
+                <li>Taking medications or insulin as prescribed.</li>
+                <li>Managing stress and maintaining a healthy lifestyle.</li>
+                <li>Regular check-ups and screenings.</li>
+            </ul>
+        </section>
+
+        <section id="Model">
+            <h2>How to Use the Model</h2>
+            <p>The Diabetes Prediction Model helps predict the likelihood of an individual developing diabetes based on various health parameters. Follow these steps to use the model:</p>
+            <ul>
+                <li>Register or Log in to have acccess to the model</li>
+                <li>Ensure you have collected the necessary health data of the patient, including:</li>
+                <li>Number of pregnancies (for women)</li>
+                <li>Glucose levels</li>
+                <li>Blood pressure readings</li>
+                <li>Skin thickness measurements</li>
+                <li>Insulin levels</li>
+                <li>Body Mass Index (BMI)</li>
+                <li>Diabetes Pedigree Function (genetic influence)</li>
+                <li>Age</li>
+                <li>Input these values into the respective fields in the Prediction form.</li>
+                <li>Click the "Predict" button to generate a prediction based on the entered data.</li>
+                <li>Review the prediction result to understand the risk level of diabetes.</li>
+            </ul>
+        </section>
+        
     </div>
+
+    <footer>
+        Copyright by Ryan&Scott Foundation
+    </footer>
+
     
-    <footer> Copyright by Ryan&Sc Foundation </footer>
 </body>
+
 </html>

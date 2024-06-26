@@ -1,28 +1,22 @@
 <!DOCTYPE html>
 <head>
     <title>Login Page</title>
-    <link rel="Stylesheet" href="/static/login.css">
+    <link rel="stylesheet" href="/static/login.css">
 </head>
 <body>
-    
-    <h1>Login Page</h1>
-    <div>
+    <h1 class="page-title">Login Page</h1>
+    <div class="form-container">
         <form action="/login" method="POST">
-            <ul>
-            <label for="id">ID :</label>
+
             <input type="number" id="id" name="id" placeholder="Enter your ID" required>
-            </ul>
-
-            <ul>
-            <label for="password">Password :</label>
             <input type="password" id="password" name="password" placeholder="Enter your password" required>
-            </ul>
-
             <input type="submit" value="Login">
 
         </form>
-    </div>
 
-    <footer>Copyright by Ryan&Sc Foundation</footer>
+        <a class="register-link" href="{{ url_for('register') }}">Don't have an account? Register</a>
+        
+    </div>
+    <footer>Copyright by Ryan&Scott Foundation</footer>
 </body>
 </html>
