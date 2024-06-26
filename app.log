@@ -1,0 +1,62 @@
+2024-06-24 14:54:44,715 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-24 14:54:44,716 - INFO - [33mPress CTRL+C to quit[0m
+2024-06-24 14:54:44,721 - INFO -  * Restarting with stat
+2024-06-24 14:54:46,027 - WARNING -  * Debugger is active!
+2024-06-24 14:54:46,047 - INFO -  * Debugger PIN: 142-167-814
+2024-06-24 14:58:32,765 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-24 14:58:32,767 - INFO - [33mPress CTRL+C to quit[0m
+2024-06-24 14:58:32,768 - INFO -  * Restarting with stat
+2024-06-24 14:58:34,242 - WARNING -  * Debugger is active!
+2024-06-24 14:58:34,247 - INFO -  * Debugger PIN: 142-167-814
+2024-06-24 14:59:04,327 - INFO - 127.0.0.1 - - [24/Jun/2024 14:59:04] "GET / HTTP/1.1" 200 -
+2024-06-24 14:59:04,437 - INFO - 127.0.0.1 - - [24/Jun/2024 14:59:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-06-24 14:59:04,478 - INFO - 127.0.0.1 - - [24/Jun/2024 14:59:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-06-24 14:59:06,817 - INFO - 127.0.0.1 - - [24/Jun/2024 14:59:06] "[32mGET /prediction HTTP/1.1[0m" 302 -
+2024-06-24 14:59:06,940 - INFO - 127.0.0.1 - - [24/Jun/2024 14:59:06] "GET /login HTTP/1.1" 200 -
+2024-06-24 14:59:06,969 - INFO - 127.0.0.1 - - [24/Jun/2024 14:59:06] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2024-06-24 14:59:18,677 - INFO - 127.0.0.1 - - [24/Jun/2024 14:59:18] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2024-06-24 14:59:18,703 - INFO - 127.0.0.1 - - [24/Jun/2024 14:59:18] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-06-24 14:59:18,994 - INFO - 127.0.0.1 - - [24/Jun/2024 14:59:18] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-06-24 14:59:19,027 - INFO - 127.0.0.1 - - [24/Jun/2024 14:59:19] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-06-24 14:59:19,037 - INFO - 127.0.0.1 - - [24/Jun/2024 14:59:19] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-06-24 14:59:30,674 - INFO - 127.0.0.1 - - [24/Jun/2024 14:59:30] "GET /register HTTP/1.1" 200 -
+2024-06-24 14:59:30,693 - INFO - 127.0.0.1 - - [24/Jun/2024 14:59:30] "GET /static/register.css HTTP/1.1" 200 -
+2024-06-24 15:00:54,048 - INFO - 127.0.0.1 - - [24/Jun/2024 15:00:54] "[32mPOST /register HTTP/1.1[0m" 302 -
+2024-06-24 15:00:54,053 - INFO - 127.0.0.1 - - [24/Jun/2024 15:00:54] "GET /login HTTP/1.1" 200 -
+2024-06-24 15:00:54,069 - INFO - 127.0.0.1 - - [24/Jun/2024 15:00:54] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2024-06-24 15:01:46,194 - INFO - 127.0.0.1 - - [24/Jun/2024 15:01:46] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-06-24 15:01:46,217 - INFO - 127.0.0.1 - - [24/Jun/2024 15:01:46] "GET /prediction HTTP/1.1" 200 -
+2024-06-24 15:01:46,245 - INFO - 127.0.0.1 - - [24/Jun/2024 15:01:46] "GET /static/prediction.css HTTP/1.1" 200 -
+2024-06-24 15:01:54,147 - INFO - 127.0.0.1 - - [24/Jun/2024 15:01:54] "GET /report HTTP/1.1" 200 -
+2024-06-24 15:01:55,809 - INFO - 127.0.0.1 - - [24/Jun/2024 15:01:55] "GET / HTTP/1.1" 200 -
+2024-06-24 15:01:55,825 - INFO - 127.0.0.1 - - [24/Jun/2024 15:01:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-06-24 15:02:13,733 - INFO - 127.0.0.1 - - [24/Jun/2024 15:02:13] "GET /prediction HTTP/1.1" 200 -
+2024-06-24 15:02:13,747 - INFO - 127.0.0.1 - - [24/Jun/2024 15:02:13] "[36mGET /static/prediction.css HTTP/1.1[0m" 304 -
+2024-06-24 15:04:06,453 - INFO - 127.0.0.1 - - [24/Jun/2024 15:04:06] "POST /prediction HTTP/1.1" 200 -
+2024-06-24 15:04:06,473 - INFO - 127.0.0.1 - - [24/Jun/2024 15:04:06] "[36mGET /static/result.css HTTP/1.1[0m" 304 -
+2024-06-24 15:04:09,198 - INFO - 127.0.0.1 - - [24/Jun/2024 15:04:09] "GET /report HTTP/1.1" 200 -
+2024-06-24 15:04:40,378 - INFO - 127.0.0.1 - - [24/Jun/2024 15:04:40] "GET / HTTP/1.1" 200 -
+2024-06-24 15:04:40,392 - INFO - 127.0.0.1 - - [24/Jun/2024 15:04:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-06-24 15:04:42,528 - INFO - 127.0.0.1 - - [24/Jun/2024 15:04:42] "GET /prediction HTTP/1.1" 200 -
+2024-06-24 15:04:42,541 - INFO - 127.0.0.1 - - [24/Jun/2024 15:04:42] "[36mGET /static/prediction.css HTTP/1.1[0m" 304 -
+2024-06-24 15:04:43,912 - INFO - 127.0.0.1 - - [24/Jun/2024 15:04:43] "GET /report HTTP/1.1" 200 -
+2024-06-24 15:12:21,517 - INFO - 127.0.0.1 - - [24/Jun/2024 15:12:21] "GET / HTTP/1.1" 200 -
+2024-06-24 15:12:21,531 - INFO - 127.0.0.1 - - [24/Jun/2024 15:12:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-06-24 21:29:23,719 - INFO - 127.0.0.1 - - [24/Jun/2024 21:29:23] "GET /prediction HTTP/1.1" 200 -
+2024-06-24 21:29:24,127 - INFO - 127.0.0.1 - - [24/Jun/2024 21:29:24] "[36mGET /static/prediction.css HTTP/1.1[0m" 304 -
+2024-06-24 21:29:26,731 - INFO - 127.0.0.1 - - [24/Jun/2024 21:29:26] "GET /report HTTP/1.1" 200 -
+2024-06-24 21:29:38,170 - INFO - 127.0.0.1 - - [24/Jun/2024 21:29:38] "GET / HTTP/1.1" 200 -
+2024-06-24 21:29:38,186 - INFO - 127.0.0.1 - - [24/Jun/2024 21:29:38] "GET /static/style.css HTTP/1.1" 200 -
+2024-06-25 15:38:06,809 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-25 15:38:06,809 - INFO - [33mPress CTRL+C to quit[0m
+2024-06-25 15:38:06,816 - INFO -  * Restarting with stat
+2024-06-25 15:38:08,085 - WARNING -  * Debugger is active!
+2024-06-25 15:38:08,089 - INFO -  * Debugger PIN: 142-167-814
+2024-06-25 15:38:49,372 - INFO - 127.0.0.1 - - [25/Jun/2024 15:38:49] "GET / HTTP/1.1" 200 -
+2024-06-25 15:38:49,599 - INFO - 127.0.0.1 - - [25/Jun/2024 15:38:49] "GET /static/style.css HTTP/1.1" 200 -
+2024-06-25 15:38:49,723 - INFO - 127.0.0.1 - - [25/Jun/2024 15:38:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-06-25 15:38:51,350 - INFO - 127.0.0.1 - - [25/Jun/2024 15:38:51] "GET /register HTTP/1.1" 200 -
+2024-06-25 15:38:51,387 - INFO - 127.0.0.1 - - [25/Jun/2024 15:38:51] "GET /static/register.css HTTP/1.1" 200 -
