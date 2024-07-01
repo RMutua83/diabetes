@@ -7,54 +7,54 @@
     <link rel="stylesheet" href="/static/report.css">
 </head>
 <body>
-    <h1 class="page-title">Prediction Report</h1>
+    <div class="container">
+        <h1 class="page-title">Prediction Report</h1>
 
-    {% if predictions %}
-    <div class="table-container">
-        <table class="data-table">
-            <thead>
-                <tr>
-                    <th>ID</th>
-                    <th>Patient ID</th>
-                    <th>Pregnancies</th>
-                    <th>Glucose</th>
-                    <th>Blood Pressure</th>
-                    <th>Skin Thickness</th>
-                    <th>Insulin</th>
-                    <th>BMI</th>
-                    <th>Diabetes Pedigree</th>
-                    <th>Age</th>
-                    <th>Result</th>
-                </tr>
-            </thead>
-            <tbody>
-                {% for prediction in predictions %}
-                <tr>
-                    <td>{{ prediction[0] }}</td>
-                    <td>{{ prediction[1] }}</td>
-                    <td>{{ prediction[2] }}</td>
-                    <td>{{ prediction[3] }}</td>
-                    <td>{{ prediction[4] }}</td>
-                    <td>{{ prediction[5] }}</td>
-                    <td>{{ prediction[6] }}</td>
-                    <td>{{ prediction[7] }}</td>
-                    <td>{{ prediction[8] }}</td>
-                    <td>{{ prediction[9] }}</td>
-                    <td>{{ prediction[10] }}</td>
-                </tr>
-                {% endfor %}
-            </tbody>
-        </table>
+        {% if predictions %}
+        <div class="table-container">
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Patient ID</th>
+                        <th>Pregnancies</th>
+                        <th>Glucose</th>
+                        <th>Blood Pressure</th>
+                        <th>Skin Thickness</th>
+                        <th>Insulin</th>
+                        <th>BMI</th>
+                        <th>Diabetes Pedigree</th>
+                        <th>Age</th>
+                        <th>Result</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for prediction in predictions %}
+                    <tr>
+                        <td>{{ prediction[0] }}</td>
+                        <td>{{ prediction[1] }}</td>
+                        <td>{{ prediction[2] }}</td>
+                        <td>{{ prediction[3] }}</td>
+                        <td>{{ prediction[4] }}</td>
+                        <td>{{ prediction[5] }}</td>
+                        <td>{{ prediction[6] }}</td>
+                        <td>{{ prediction[7] }}</td>
+                        <td>{{ prediction[8] }}</td>
+                        <td>{{ prediction[9] }}</td>
+                        <td>{{ prediction[10] }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        {% else %}
+        <p class="no-data-msg">No predictions found.</p>
+        {% endif %}
+
+        <p><a class="back-link" href="{{ url_for('admin_dashboard') }}">Back to Dashboard</a></p>
     </div>
-    {% else %}
-    <p class="no-data-msg">No predictions found.</p>
-    {% endif %}
-
-    <p><a class="back-link" href="{{ url_for('home') }}">Back to Home</a></p>
-
     <footer class="footer">
         <p>Copyright by Ryan&Scott Foundation</p>
     </footer>
 </body>
 </html>
-

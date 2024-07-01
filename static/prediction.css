@@ -1,3 +1,5 @@
+/* prediction.css */
+
 * {
     margin: 0;
     padding: 0;
@@ -14,23 +16,59 @@ body {
     flex-direction: column;
     min-height: 100vh;
     position: relative;
-    padding-bottom: 100px; 
+    padding-top: 100px; /* To ensure content doesn't overlap with navbar */
+    padding-bottom: 100px; /* To ensure footer doesn't overlap content */
 }
 
+nav {
+    background-color: white;
+    color: white;
+    width: 100%;
+    padding: 10px 20px; /* Adjusted padding */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-a {
-    background-color:  #4CAF50;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+nav h1 {
+    font-size: 24px; /* Adjusted font size */
+    margin: 0; /* Remove margin to align to the left */
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li:first-child {
+    margin-left: auto; /* Pushes "Home" link to the left */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+    font-size: 20px; /* Adjusted font size */
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #512da8;
 }
 
 h1 {
     text-align: center;
     margin: 20px 0;
-    color:black;
+    color: black;
 }
 
 form {
@@ -40,6 +78,7 @@ form {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 100%;
     max-width: 400px;
+    margin-top: 50px; /* Adjust as needed */
 }
 
 ul {
@@ -52,8 +91,6 @@ li {
     margin-bottom: 10px;
 }
 
-
-
 input[type="text"],
 input[type="number"] {
     width: calc(100% - 20px);
@@ -62,12 +99,6 @@ input[type="number"] {
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 1em;
-}
-
-.input-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .button-container {
@@ -105,4 +136,3 @@ footer {
     position: absolute;
     bottom: 0;
 }
-

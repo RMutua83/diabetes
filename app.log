@@ -60,3 +60,726 @@
 2024-06-25 15:38:49,723 - INFO - 127.0.0.1 - - [25/Jun/2024 15:38:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
 2024-06-25 15:38:51,350 - INFO - 127.0.0.1 - - [25/Jun/2024 15:38:51] "GET /register HTTP/1.1" 200 -
 2024-06-25 15:38:51,387 - INFO - 127.0.0.1 - - [25/Jun/2024 15:38:51] "GET /static/register.css HTTP/1.1" 200 -
+2024-06-26 23:04:58,164 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-26 23:04:58,164 - INFO - [33mPress CTRL+C to quit[0m
+2024-06-26 23:04:58,175 - INFO -  * Restarting with stat
+2024-06-26 23:04:59,406 - WARNING -  * Debugger is active!
+2024-06-26 23:04:59,414 - INFO -  * Debugger PIN: 142-167-814
+2024-06-26 23:05:19,719 - INFO - 127.0.0.1 - - [26/Jun/2024 23:05:19] "GET / HTTP/1.1" 200 -
+2024-06-26 23:05:19,866 - INFO - 127.0.0.1 - - [26/Jun/2024 23:05:19] "GET /static/style.css HTTP/1.1" 200 -
+2024-06-26 23:05:19,914 - INFO - 127.0.0.1 - - [26/Jun/2024 23:05:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-06-26 23:05:27,678 - INFO - 127.0.0.1 - - [26/Jun/2024 23:05:27] "GET / HTTP/1.1" 200 -
+2024-06-26 23:05:27,692 - INFO - 127.0.0.1 - - [26/Jun/2024 23:05:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-06-26 23:05:29,322 - INFO - 127.0.0.1 - - [26/Jun/2024 23:05:29] "GET /register HTTP/1.1" 200 -
+2024-06-26 23:05:29,337 - INFO - 127.0.0.1 - - [26/Jun/2024 23:05:29] "GET /static/register.css HTTP/1.1" 200 -
+2024-06-26 23:05:33,944 - INFO - 127.0.0.1 - - [26/Jun/2024 23:05:33] "GET /login HTTP/1.1" 200 -
+2024-06-26 23:05:33,957 - INFO - 127.0.0.1 - - [26/Jun/2024 23:05:33] "GET /static/login.css HTTP/1.1" 200 -
+2024-06-26 23:06:26,478 - INFO - 127.0.0.1 - - [26/Jun/2024 23:06:26] "GET /register HTTP/1.1" 200 -
+2024-06-26 23:06:26,493 - INFO - 127.0.0.1 - - [26/Jun/2024 23:06:26] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-06-26 23:06:35,535 - INFO - 127.0.0.1 - - [26/Jun/2024 23:06:35] "[32mGET /prediction HTTP/1.1[0m" 302 -
+2024-06-26 23:06:35,539 - INFO - 127.0.0.1 - - [26/Jun/2024 23:06:35] "GET /login HTTP/1.1" 200 -
+2024-06-26 23:06:35,552 - INFO - 127.0.0.1 - - [26/Jun/2024 23:06:35] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2024-06-26 23:08:56,296 - ERROR - Error while connecting to MySQL: 2013 (HY000): Lost connection to MySQL server at 'reading initial communication packet', system error: 0
+2024-06-26 23:08:56,297 - ERROR - Error while connecting to MySQL: 2013 (HY000): Lost connection to MySQL server at 'reading initial communication packet', system error: 0
+2024-06-26 23:08:56,299 - INFO - 127.0.0.1 - - [26/Jun/2024 23:08:56] "POST /login HTTP/1.1" 200 -
+2024-06-26 23:08:56,300 - INFO - 127.0.0.1 - - [26/Jun/2024 23:08:56] "POST /login HTTP/1.1" 200 -
+2024-06-26 23:08:56,312 - INFO - 127.0.0.1 - - [26/Jun/2024 23:08:56] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2024-06-27 13:53:47,544 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-27 13:53:47,544 - INFO - [33mPress CTRL+C to quit[0m
+2024-06-27 13:53:47,550 - INFO -  * Restarting with stat
+2024-06-27 13:53:48,897 - WARNING -  * Debugger is active!
+2024-06-27 13:53:48,905 - INFO -  * Debugger PIN: 142-167-814
+2024-06-27 13:54:17,504 - INFO - 127.0.0.1 - - [27/Jun/2024 13:54:17] "GET / HTTP/1.1" 200 -
+2024-06-27 13:54:17,615 - INFO - 127.0.0.1 - - [27/Jun/2024 13:54:17] "GET /static/style.css HTTP/1.1" 200 -
+2024-06-27 13:54:17,646 - INFO - 127.0.0.1 - - [27/Jun/2024 13:54:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-06-27 13:54:28,669 - INFO - 127.0.0.1 - - [27/Jun/2024 13:54:28] "GET / HTTP/1.1" 200 -
+2024-06-27 13:54:28,677 - INFO - 127.0.0.1 - - [27/Jun/2024 13:54:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-06-27 13:54:30,516 - INFO - 127.0.0.1 - - [27/Jun/2024 13:54:30] "GET /register HTTP/1.1" 200 -
+2024-06-27 13:54:30,538 - INFO - 127.0.0.1 - - [27/Jun/2024 13:54:30] "GET /static/register.css HTTP/1.1" 200 -
+2024-06-27 13:54:32,437 - INFO - 127.0.0.1 - - [27/Jun/2024 13:54:32] "GET /login HTTP/1.1" 200 -
+2024-06-27 13:54:32,456 - INFO - 127.0.0.1 - - [27/Jun/2024 13:54:32] "GET /static/login.css HTTP/1.1" 200 -
+2024-06-27 13:54:42,855 - INFO - 127.0.0.1 - - [27/Jun/2024 13:54:42] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2024-06-27 13:54:42,888 - INFO - 127.0.0.1 - - [27/Jun/2024 13:54:42] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-06-27 13:54:42,935 - INFO - 127.0.0.1 - - [27/Jun/2024 13:54:42] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-06-27 13:54:42,960 - INFO - 127.0.0.1 - - [27/Jun/2024 13:54:42] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-06-27 13:54:42,971 - INFO - 127.0.0.1 - - [27/Jun/2024 13:54:42] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-06-27 13:55:56,786 - INFO - 127.0.0.1 - - [27/Jun/2024 13:55:56] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-06-27 13:55:56,803 - INFO - 127.0.0.1 - - [27/Jun/2024 13:55:56] "GET /prediction HTTP/1.1" 200 -
+2024-06-27 13:55:56,830 - INFO - 127.0.0.1 - - [27/Jun/2024 13:55:56] "GET /static/prediction.css HTTP/1.1" 200 -
+2024-06-27 13:56:02,704 - INFO - 127.0.0.1 - - [27/Jun/2024 13:56:02] "GET /report HTTP/1.1" 200 -
+2024-06-27 13:56:02,732 - INFO - 127.0.0.1 - - [27/Jun/2024 13:56:02] "GET /static/report.css HTTP/1.1" 200 -
+2024-06-27 13:56:27,404 - INFO - 127.0.0.1 - - [27/Jun/2024 13:56:27] "GET / HTTP/1.1" 200 -
+2024-06-27 13:56:27,419 - INFO - 127.0.0.1 - - [27/Jun/2024 13:56:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-06-27 16:17:15,221 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-27 16:17:15,222 - INFO - [33mPress CTRL+C to quit[0m
+2024-06-27 16:17:15,227 - INFO -  * Restarting with stat
+2024-06-27 16:17:16,444 - WARNING -  * Debugger is active!
+2024-06-27 16:17:16,454 - INFO -  * Debugger PIN: 142-167-814
+2024-06-27 16:17:51,731 - INFO - 127.0.0.1 - - [27/Jun/2024 16:17:51] "GET / HTTP/1.1" 200 -
+2024-06-27 16:17:51,861 - INFO - 127.0.0.1 - - [27/Jun/2024 16:17:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-06-27 16:25:17,816 - INFO - 127.0.0.1 - - [27/Jun/2024 16:25:17] "GET /register HTTP/1.1" 200 -
+2024-06-27 16:25:18,081 - INFO - 127.0.0.1 - - [27/Jun/2024 16:25:18] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-06-27 16:26:06,688 - INFO - 127.0.0.1 - - [27/Jun/2024 16:26:06] "GET /login HTTP/1.1" 200 -
+2024-06-27 16:26:06,730 - INFO - 127.0.0.1 - - [27/Jun/2024 16:26:06] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2024-06-27 16:26:42,305 - INFO - 127.0.0.1 - - [27/Jun/2024 16:26:42] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-06-27 16:26:42,362 - INFO - 127.0.0.1 - - [27/Jun/2024 16:26:42] "GET /prediction HTTP/1.1" 200 -
+2024-06-27 16:26:42,445 - INFO - 127.0.0.1 - - [27/Jun/2024 16:26:42] "[36mGET /static/prediction.css HTTP/1.1[0m" 304 -
+2024-06-27 16:28:49,949 - INFO - 127.0.0.1 - - [27/Jun/2024 16:28:49] "GET /report HTTP/1.1" 200 -
+2024-06-27 16:28:49,992 - INFO - 127.0.0.1 - - [27/Jun/2024 16:28:49] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-06-27 16:30:17,131 - INFO - 127.0.0.1 - - [27/Jun/2024 16:30:17] "GET /report HTTP/1.1" 200 -
+2024-06-27 16:30:17,175 - INFO - 127.0.0.1 - - [27/Jun/2024 16:30:17] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-06-27 16:31:09,717 - INFO - 127.0.0.1 - - [27/Jun/2024 16:31:09] "GET /report HTTP/1.1" 200 -
+2024-06-27 16:31:09,733 - INFO - 127.0.0.1 - - [27/Jun/2024 16:31:09] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-06-27 16:32:13,624 - INFO - 127.0.0.1 - - [27/Jun/2024 16:32:13] "GET / HTTP/1.1" 200 -
+2024-06-27 16:32:13,781 - INFO - 127.0.0.1 - - [27/Jun/2024 16:32:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-06-27 16:32:20,715 - INFO - 127.0.0.1 - - [27/Jun/2024 16:32:20] "GET / HTTP/1.1" 200 -
+2024-06-27 16:32:20,729 - INFO - 127.0.0.1 - - [27/Jun/2024 16:32:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-06-27 16:32:29,315 - INFO - 127.0.0.1 - - [27/Jun/2024 16:32:29] "GET /prediction HTTP/1.1" 200 -
+2024-06-27 16:32:29,335 - INFO - 127.0.0.1 - - [27/Jun/2024 16:32:29] "[36mGET /static/prediction.css HTTP/1.1[0m" 304 -
+2024-06-27 16:32:38,869 - INFO - 127.0.0.1 - - [27/Jun/2024 16:32:38] "GET / HTTP/1.1" 200 -
+2024-06-27 16:32:38,987 - INFO - 127.0.0.1 - - [27/Jun/2024 16:32:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-06-27 16:32:41,129 - INFO - 127.0.0.1 - - [27/Jun/2024 16:32:41] "GET /prediction HTTP/1.1" 200 -
+2024-06-27 16:32:41,152 - INFO - 127.0.0.1 - - [27/Jun/2024 16:32:41] "[36mGET /static/prediction.css HTTP/1.1[0m" 304 -
+2024-06-27 16:32:44,973 - INFO - 127.0.0.1 - - [27/Jun/2024 16:32:44] "GET /register HTTP/1.1" 200 -
+2024-06-27 16:32:44,992 - INFO - 127.0.0.1 - - [27/Jun/2024 16:32:44] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-06-27 16:32:53,180 - INFO - 127.0.0.1 - - [27/Jun/2024 16:32:53] "GET /login HTTP/1.1" 200 -
+2024-06-27 16:32:53,201 - INFO - 127.0.0.1 - - [27/Jun/2024 16:32:53] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2024-06-27 16:33:20,217 - INFO - 127.0.0.1 - - [27/Jun/2024 16:33:20] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-06-27 16:33:20,222 - INFO - 127.0.0.1 - - [27/Jun/2024 16:33:20] "GET /prediction HTTP/1.1" 200 -
+2024-06-27 16:33:20,282 - INFO - 127.0.0.1 - - [27/Jun/2024 16:33:20] "[36mGET /static/prediction.css HTTP/1.1[0m" 304 -
+2024-06-27 16:34:23,458 - INFO - 127.0.0.1 - - [27/Jun/2024 16:34:23] "GET /report HTTP/1.1" 200 -
+2024-06-27 16:34:23,481 - INFO - 127.0.0.1 - - [27/Jun/2024 16:34:23] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-06-27 16:34:25,147 - INFO - 127.0.0.1 - - [27/Jun/2024 16:34:25] "GET / HTTP/1.1" 200 -
+2024-06-27 16:34:25,166 - INFO - 127.0.0.1 - - [27/Jun/2024 16:34:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-06-27 16:48:00,440 - INFO - 127.0.0.1 - - [27/Jun/2024 16:48:00] "GET /register HTTP/1.1" 200 -
+2024-06-27 16:48:00,484 - INFO - 127.0.0.1 - - [27/Jun/2024 16:48:00] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-06-27 16:51:28,467 - INFO - 127.0.0.1 - - [27/Jun/2024 16:51:28] "GET /login HTTP/1.1" 200 -
+2024-06-27 16:51:28,552 - INFO - 127.0.0.1 - - [27/Jun/2024 16:51:28] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2024-06-27 16:51:39,040 - INFO - 127.0.0.1 - - [27/Jun/2024 16:51:39] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-06-27 16:51:39,045 - INFO - 127.0.0.1 - - [27/Jun/2024 16:51:39] "GET /prediction HTTP/1.1" 200 -
+2024-06-27 16:51:39,122 - INFO - 127.0.0.1 - - [27/Jun/2024 16:51:39] "[36mGET /static/prediction.css HTTP/1.1[0m" 304 -
+2024-06-27 16:53:12,327 - INFO - 127.0.0.1 - - [27/Jun/2024 16:53:12] "POST /prediction HTTP/1.1" 200 -
+2024-06-27 16:53:12,516 - INFO - 127.0.0.1 - - [27/Jun/2024 16:53:12] "GET /static/result.css HTTP/1.1" 200 -
+2024-06-27 16:53:33,165 - INFO - 127.0.0.1 - - [27/Jun/2024 16:53:33] "GET /report HTTP/1.1" 200 -
+2024-06-27 16:53:33,180 - INFO - 127.0.0.1 - - [27/Jun/2024 16:53:33] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-06-27 16:54:22,595 - INFO - 127.0.0.1 - - [27/Jun/2024 16:54:22] "GET / HTTP/1.1" 200 -
+2024-06-27 16:54:22,615 - INFO - 127.0.0.1 - - [27/Jun/2024 16:54:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-06-27 16:57:53,453 - INFO - 127.0.0.1 - - [27/Jun/2024 16:57:53] "GET /register HTTP/1.1" 200 -
+2024-06-27 16:57:53,526 - INFO - 127.0.0.1 - - [27/Jun/2024 16:57:53] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-06-27 17:03:54,841 - INFO - 127.0.0.1 - - [27/Jun/2024 17:03:54] "GET /login HTTP/1.1" 200 -
+2024-06-27 17:03:54,857 - INFO - 127.0.0.1 - - [27/Jun/2024 17:03:54] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2024-06-27 17:03:58,220 - INFO - 127.0.0.1 - - [27/Jun/2024 17:03:58] "GET /register HTTP/1.1" 200 -
+2024-06-27 17:03:58,236 - INFO - 127.0.0.1 - - [27/Jun/2024 17:03:58] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-06-27 17:06:30,481 - INFO - 127.0.0.1 - - [27/Jun/2024 17:06:30] "GET /login HTTP/1.1" 200 -
+2024-06-27 17:06:31,996 - INFO - 127.0.0.1 - - [27/Jun/2024 17:06:31] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2024-06-27 21:10:42,283 - INFO - 127.0.0.1 - - [27/Jun/2024 21:10:42] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2024-06-27 21:30:11,756 - INFO - 127.0.0.1 - - [27/Jun/2024 21:30:11] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-06-27 21:37:04,240 - INFO -  * Detected change in 'C:\\Users\\ryanm\\Desktop\\diabetes\\app.py', reloading
+2024-06-27 21:37:04,705 - INFO -  * Detected change in 'C:\\Users\\ryanm\\Desktop\\diabetes\\app.py', reloading
+2024-06-27 21:37:17,902 - INFO -  * Restarting with stat
+2024-06-27 21:37:26,304 - INFO -  * Restarting with stat
+2024-06-27 21:37:42,334 - WARNING -  * Debugger is active!
+2024-06-27 21:37:42,340 - INFO -  * Debugger PIN: 142-167-814
+2024-06-27 21:37:42,340 - INFO -  * Debugger PIN: 142-167-814
+2024-06-27 21:47:52,480 - INFO -  * Detected change in 'C:\\Users\\ryanm\\Desktop\\diabetes\\app.py', reloading
+2024-06-27 21:47:52,500 - INFO -  * Detected change in 'C:\\Users\\ryanm\\Desktop\\diabetes\\app.py', reloading
+2024-06-27 21:47:52,780 - INFO -  * Restarting with stat
+2024-06-27 21:47:52,861 - INFO -  * Restarting with stat
+2024-06-27 21:47:55,771 - WARNING -  * Debugger is active!
+2024-06-27 21:47:55,771 - WARNING -  * Debugger is active!
+2024-06-27 21:47:55,779 - INFO -  * Debugger PIN: 142-167-814
+2024-06-27 21:48:03,756 - INFO - 127.0.0.1 - - [27/Jun/2024 21:48:03] "GET /register HTTP/1.1" 200 -
+2024-06-27 21:48:03,902 - INFO - 127.0.0.1 - - [27/Jun/2024 21:48:03] "GET /static/register.css HTTP/1.1" 200 -
+2024-06-27 21:48:34,944 - INFO - 127.0.0.1 - - [27/Jun/2024 21:48:34] "[32mPOST /register HTTP/1.1[0m" 302 -
+2024-06-27 21:48:34,944 - INFO - 127.0.0.1 - - [27/Jun/2024 21:48:34] "GET /register HTTP/1.1" 200 -
+2024-06-27 21:48:34,961 - INFO - 127.0.0.1 - - [27/Jun/2024 21:48:34] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-06-27 21:51:39,393 - INFO - 127.0.0.1 - - [27/Jun/2024 21:51:39] "[32mPOST /register HTTP/1.1[0m" 302 -
+2024-06-27 21:51:39,405 - INFO - 127.0.0.1 - - [27/Jun/2024 21:51:39] "GET /register HTTP/1.1" 200 -
+2024-06-27 21:51:39,416 - INFO - 127.0.0.1 - - [27/Jun/2024 21:51:39] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-06-27 21:52:39,810 - INFO - 127.0.0.1 - - [27/Jun/2024 21:52:39] "[32mPOST /register HTTP/1.1[0m" 302 -
+2024-06-27 21:52:39,814 - INFO - 127.0.0.1 - - [27/Jun/2024 21:52:39] "GET /register HTTP/1.1" 200 -
+2024-06-27 21:52:39,827 - INFO - 127.0.0.1 - - [27/Jun/2024 21:52:39] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-06-27 21:59:16,213 - INFO - 127.0.0.1 - - [27/Jun/2024 21:59:16] "GET /register HTTP/1.1" 200 -
+2024-06-27 21:59:28,368 - INFO - 127.0.0.1 - - [27/Jun/2024 21:59:28] "GET /prediction HTTP/1.1" 200 -
+2024-06-27 21:59:28,431 - INFO - 127.0.0.1 - - [27/Jun/2024 21:59:28] "[36mGET /static/prediction.css HTTP/1.1[0m" 304 -
+2024-06-27 21:59:31,401 - INFO - 127.0.0.1 - - [27/Jun/2024 21:59:31] "GET /report HTTP/1.1" 200 -
+2024-06-27 21:59:31,454 - INFO - 127.0.0.1 - - [27/Jun/2024 21:59:31] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-06-27 22:01:49,691 - INFO -  * Detected change in 'C:\\Users\\ryanm\\Desktop\\diabetes\\app.py', reloading
+2024-06-27 22:01:49,715 - INFO -  * Detected change in 'C:\\Users\\ryanm\\Desktop\\diabetes\\app.py', reloading
+2024-06-27 22:01:50,031 - INFO -  * Restarting with stat
+2024-06-27 22:01:50,041 - INFO -  * Restarting with stat
+2024-06-27 22:01:52,871 - WARNING -  * Debugger is active!
+2024-06-27 22:01:52,873 - INFO -  * Debugger PIN: 142-167-814
+2024-06-27 22:01:52,874 - INFO -  * Debugger PIN: 142-167-814
+2024-06-27 22:08:15,221 - INFO - 127.0.0.1 - - [27/Jun/2024 22:08:15] "GET /report HTTP/1.1" 200 -
+2024-06-27 22:08:15,300 - INFO - 127.0.0.1 - - [27/Jun/2024 22:08:15] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-06-27 22:08:16,720 - INFO - 127.0.0.1 - - [27/Jun/2024 22:08:16] "GET / HTTP/1.1" 200 -
+2024-06-27 22:08:16,735 - INFO - 127.0.0.1 - - [27/Jun/2024 22:08:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-06-27 22:08:19,238 - INFO - 127.0.0.1 - - [27/Jun/2024 22:08:19] "GET /prediction HTTP/1.1" 200 -
+2024-06-27 22:08:19,255 - INFO - 127.0.0.1 - - [27/Jun/2024 22:08:19] "[36mGET /static/prediction.css HTTP/1.1[0m" 304 -
+2024-06-27 22:08:23,917 - INFO - 127.0.0.1 - - [27/Jun/2024 22:08:23] "GET /prediction HTTP/1.1" 200 -
+2024-06-27 22:08:23,931 - INFO - 127.0.0.1 - - [27/Jun/2024 22:08:23] "[36mGET /static/prediction.css HTTP/1.1[0m" 304 -
+2024-06-27 22:08:26,081 - INFO - 127.0.0.1 - - [27/Jun/2024 22:08:26] "GET /prediction HTTP/1.1" 200 -
+2024-06-27 22:08:26,092 - INFO - 127.0.0.1 - - [27/Jun/2024 22:08:26] "[36mGET /static/prediction.css HTTP/1.1[0m" 304 -
+2024-06-27 22:08:28,412 - INFO - 127.0.0.1 - - [27/Jun/2024 22:08:28] "GET /prediction HTTP/1.1" 200 -
+2024-06-27 22:08:28,432 - INFO - 127.0.0.1 - - [27/Jun/2024 22:08:28] "[36mGET /static/prediction.css HTTP/1.1[0m" 304 -
+2024-06-27 22:10:43,894 - INFO - 127.0.0.1 - - [27/Jun/2024 22:10:43] "GET /prediction HTTP/1.1" 200 -
+2024-06-27 22:10:43,911 - INFO - 127.0.0.1 - - [27/Jun/2024 22:10:43] "[36mGET /static/prediction.css HTTP/1.1[0m" 304 -
+2024-06-27 22:11:31,076 - INFO - 127.0.0.1 - - [27/Jun/2024 22:11:31] "GET /report HTTP/1.1" 200 -
+2024-06-27 22:11:31,096 - INFO - 127.0.0.1 - - [27/Jun/2024 22:11:31] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-06-27 22:11:47,943 - INFO - 127.0.0.1 - - [27/Jun/2024 22:11:47] "POST /prediction HTTP/1.1" 200 -
+2024-06-27 22:11:47,966 - INFO - 127.0.0.1 - - [27/Jun/2024 22:11:47] "[36mGET /static/result.css HTTP/1.1[0m" 304 -
+2024-06-27 22:12:03,631 - INFO - 127.0.0.1 - - [27/Jun/2024 22:12:03] "GET /report HTTP/1.1" 200 -
+2024-06-27 22:12:03,642 - INFO - 127.0.0.1 - - [27/Jun/2024 22:12:03] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-06-27 22:15:42,173 - INFO - 127.0.0.1 - - [27/Jun/2024 22:15:42] "GET / HTTP/1.1" 200 -
+2024-06-27 22:15:42,191 - INFO - 127.0.0.1 - - [27/Jun/2024 22:15:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-06-27 22:16:51,972 - INFO - 127.0.0.1 - - [27/Jun/2024 22:16:51] "GET / HTTP/1.1" 200 -
+2024-06-27 22:16:51,982 - INFO - 127.0.0.1 - - [27/Jun/2024 22:16:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-06-27 22:17:30,715 - INFO - 127.0.0.1 - - [27/Jun/2024 22:17:30] "GET / HTTP/1.1" 200 -
+2024-06-27 22:17:30,722 - INFO - 127.0.0.1 - - [27/Jun/2024 22:17:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-06-27 22:18:06,952 - INFO - 127.0.0.1 - - [27/Jun/2024 22:18:06] "GET / HTTP/1.1" 200 -
+2024-06-27 22:18:06,965 - INFO - 127.0.0.1 - - [27/Jun/2024 22:18:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-06-27 22:18:54,612 - INFO - 127.0.0.1 - - [27/Jun/2024 22:18:54] "GET /prediction HTTP/1.1" 200 -
+2024-06-27 22:18:54,627 - INFO - 127.0.0.1 - - [27/Jun/2024 22:18:54] "[36mGET /static/prediction.css HTTP/1.1[0m" 304 -
+2024-06-27 22:19:51,812 - INFO - 127.0.0.1 - - [27/Jun/2024 22:19:51] "GET /register HTTP/1.1" 200 -
+2024-06-27 22:19:51,826 - INFO - 127.0.0.1 - - [27/Jun/2024 22:19:51] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-06-27 22:19:54,765 - INFO - 127.0.0.1 - - [27/Jun/2024 22:19:54] "GET /login HTTP/1.1" 200 -
+2024-06-27 22:19:54,780 - INFO - 127.0.0.1 - - [27/Jun/2024 22:19:54] "GET /static/login.css HTTP/1.1" 200 -
+2024-06-27 22:20:11,084 - INFO - 127.0.0.1 - - [27/Jun/2024 22:20:11] "POST /login HTTP/1.1" 200 -
+2024-06-27 22:20:11,101 - INFO - 127.0.0.1 - - [27/Jun/2024 22:20:11] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2024-06-27 22:20:27,997 - INFO - 127.0.0.1 - - [27/Jun/2024 22:20:27] "POST /login HTTP/1.1" 200 -
+2024-06-27 22:20:28,011 - INFO - 127.0.0.1 - - [27/Jun/2024 22:20:28] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2024-06-27 22:20:35,942 - INFO - 127.0.0.1 - - [27/Jun/2024 22:20:35] "GET / HTTP/1.1" 200 -
+2024-06-27 22:20:35,954 - INFO - 127.0.0.1 - - [27/Jun/2024 22:20:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-06-27 22:21:41,683 - INFO - 127.0.0.1 - - [27/Jun/2024 22:21:41] "GET /prediction HTTP/1.1" 200 -
+2024-06-27 22:21:41,700 - INFO - 127.0.0.1 - - [27/Jun/2024 22:21:41] "[36mGET /static/prediction.css HTTP/1.1[0m" 304 -
+2024-06-27 22:22:47,166 - INFO - 127.0.0.1 - - [27/Jun/2024 22:22:47] "GET /prediction HTTP/1.1" 200 -
+2024-06-27 22:22:47,180 - INFO - 127.0.0.1 - - [27/Jun/2024 22:22:47] "[36mGET /static/prediction.css HTTP/1.1[0m" 304 -
+2024-06-27 22:23:19,898 - INFO - 127.0.0.1 - - [27/Jun/2024 22:23:19] "GET /prediction HTTP/1.1" 200 -
+2024-06-27 22:23:19,916 - INFO - 127.0.0.1 - - [27/Jun/2024 22:23:19] "[36mGET /static/prediction.css HTTP/1.1[0m" 304 -
+2024-06-27 22:24:04,015 - INFO - 127.0.0.1 - - [27/Jun/2024 22:24:04] "GET /prediction HTTP/1.1" 200 -
+2024-06-27 22:24:04,031 - INFO - 127.0.0.1 - - [27/Jun/2024 22:24:04] "[36mGET /static/prediction.css HTTP/1.1[0m" 304 -
+2024-06-27 22:24:22,525 - INFO - 127.0.0.1 - - [27/Jun/2024 22:24:22] "GET /report HTTP/1.1" 200 -
+2024-06-27 22:24:22,540 - INFO - 127.0.0.1 - - [27/Jun/2024 22:24:22] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-06-27 22:34:14,081 - INFO - 127.0.0.1 - - [27/Jun/2024 22:34:14] "GET /register HTTP/1.1" 200 -
+2024-06-27 22:34:14,096 - INFO - 127.0.0.1 - - [27/Jun/2024 22:34:14] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-06-27 22:45:42,266 - INFO - 127.0.0.1 - - [27/Jun/2024 22:45:42] "GET /register HTTP/1.1" 200 -
+2024-06-27 22:45:42,281 - INFO - 127.0.0.1 - - [27/Jun/2024 22:45:42] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-06-27 22:46:29,578 - INFO - 127.0.0.1 - - [27/Jun/2024 22:46:29] "GET /login HTTP/1.1" 200 -
+2024-06-27 22:46:29,593 - INFO - 127.0.0.1 - - [27/Jun/2024 22:46:29] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2024-06-27 22:50:32,439 - INFO - 127.0.0.1 - - [27/Jun/2024 22:50:32] "GET /login HTTP/1.1" 200 -
+2024-06-27 22:50:32,457 - INFO - 127.0.0.1 - - [27/Jun/2024 22:50:32] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2024-06-27 22:58:21,823 - INFO - 127.0.0.1 - - [27/Jun/2024 22:58:21] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2024-06-27 22:58:22,143 - INFO - 127.0.0.1 - - [27/Jun/2024 22:58:22] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-06-27 22:58:22,577 - INFO - 127.0.0.1 - - [27/Jun/2024 22:58:22] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-06-27 22:58:22,674 - INFO - 127.0.0.1 - - [27/Jun/2024 22:58:22] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-06-27 22:58:22,688 - INFO - 127.0.0.1 - - [27/Jun/2024 22:58:22] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-06-27 22:58:59,914 - INFO - 127.0.0.1 - - [27/Jun/2024 22:58:59] "GET / HTTP/1.1" 200 -
+2024-06-27 22:58:59,929 - INFO - 127.0.0.1 - - [27/Jun/2024 22:58:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-06-27 22:59:03,131 - INFO - 127.0.0.1 - - [27/Jun/2024 22:59:03] "GET /register HTTP/1.1" 200 -
+2024-06-27 22:59:03,145 - INFO - 127.0.0.1 - - [27/Jun/2024 22:59:03] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-06-27 22:59:08,304 - INFO - 127.0.0.1 - - [27/Jun/2024 22:59:08] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2024-06-27 22:59:08,319 - INFO - 127.0.0.1 - - [27/Jun/2024 22:59:08] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-06-27 22:59:08,322 - INFO - 127.0.0.1 - - [27/Jun/2024 22:59:08] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-06-27 22:59:08,335 - INFO - 127.0.0.1 - - [27/Jun/2024 22:59:08] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-06-27 23:08:49,634 - INFO - 127.0.0.1 - - [27/Jun/2024 23:08:49] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2024-06-27 23:08:49,644 - INFO - 127.0.0.1 - - [27/Jun/2024 23:08:49] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-06-27 23:08:49,666 - INFO - 127.0.0.1 - - [27/Jun/2024 23:08:49] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-06-27 23:08:49,684 - INFO - 127.0.0.1 - - [27/Jun/2024 23:08:49] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-06-27 23:08:49,697 - INFO - 127.0.0.1 - - [27/Jun/2024 23:08:49] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-06-27 23:08:54,030 - INFO - 127.0.0.1 - - [27/Jun/2024 23:08:54] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2024-06-27 23:08:54,045 - INFO - 127.0.0.1 - - [27/Jun/2024 23:08:54] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-06-27 23:08:54,049 - INFO - 127.0.0.1 - - [27/Jun/2024 23:08:54] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-06-27 23:08:54,057 - INFO - 127.0.0.1 - - [27/Jun/2024 23:08:54] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-06-27 23:20:17,941 - INFO -  * Detected change in 'C:\\Users\\ryanm\\Desktop\\diabetes\\app.py', reloading
+2024-06-27 23:20:18,275 - INFO -  * Detected change in 'C:\\Users\\ryanm\\Desktop\\diabetes\\app.py', reloading
+2024-06-27 23:20:25,345 - INFO -  * Restarting with stat
+2024-06-27 23:20:25,592 - INFO -  * Restarting with stat
+2024-06-27 23:20:29,596 - WARNING -  * Debugger is active!
+2024-06-27 23:20:29,596 - WARNING -  * Debugger is active!
+2024-06-27 23:20:29,599 - INFO -  * Debugger PIN: 142-167-814
+2024-06-27 23:20:29,600 - INFO -  * Debugger PIN: 142-167-814
+2024-06-27 23:40:48,505 - INFO -  * Detected change in 'C:\\Users\\ryanm\\Desktop\\diabetes\\app.py', reloading
+2024-06-27 23:40:48,515 - INFO -  * Detected change in 'C:\\Users\\ryanm\\Desktop\\diabetes\\app.py', reloading
+2024-06-27 23:40:48,805 - INFO -  * Restarting with stat
+2024-06-27 23:40:48,836 - INFO -  * Restarting with stat
+2024-06-27 23:40:52,155 - WARNING -  * Debugger is active!
+2024-06-27 23:40:52,155 - WARNING -  * Debugger is active!
+2024-06-27 23:40:52,155 - INFO -  * Debugger PIN: 142-167-814
+2024-06-27 23:40:52,155 - INFO -  * Debugger PIN: 142-167-814
+2024-06-27 23:40:54,605 - INFO - 127.0.0.1 - - [27/Jun/2024 23:40:54] "GET / HTTP/1.1" 200 -
+2024-06-27 23:40:54,665 - INFO - 127.0.0.1 - - [27/Jun/2024 23:40:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-06-27 23:40:59,473 - INFO - 127.0.0.1 - - [27/Jun/2024 23:40:59] "GET /register HTTP/1.1" 200 -
+2024-06-27 23:40:59,489 - INFO - 127.0.0.1 - - [27/Jun/2024 23:40:59] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-06-27 23:41:01,265 - INFO - 127.0.0.1 - - [27/Jun/2024 23:41:01] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2024-06-27 23:41:01,278 - INFO - 127.0.0.1 - - [27/Jun/2024 23:41:01] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-06-27 23:41:01,567 - INFO - 127.0.0.1 - - [27/Jun/2024 23:41:01] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-06-27 23:41:01,599 - INFO - 127.0.0.1 - - [27/Jun/2024 23:41:01] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-06-27 23:41:15,110 - INFO - 127.0.0.1 - - [27/Jun/2024 23:41:15] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2024-06-27 23:41:15,128 - INFO - 127.0.0.1 - - [27/Jun/2024 23:41:15] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-06-27 23:41:15,197 - INFO - 127.0.0.1 - - [27/Jun/2024 23:41:15] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-06-27 23:41:15,210 - INFO - 127.0.0.1 - - [27/Jun/2024 23:41:15] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-06-27 23:41:25,155 - INFO - 127.0.0.1 - - [27/Jun/2024 23:41:25] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2024-06-27 23:41:25,176 - INFO - 127.0.0.1 - - [27/Jun/2024 23:41:25] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-06-27 23:41:25,186 - INFO - 127.0.0.1 - - [27/Jun/2024 23:41:25] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-06-27 23:41:25,193 - INFO - 127.0.0.1 - - [27/Jun/2024 23:41:25] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-06-27 23:42:15,392 - INFO - 127.0.0.1 - - [27/Jun/2024 23:42:15] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2024-06-27 23:42:15,405 - INFO - 127.0.0.1 - - [27/Jun/2024 23:42:15] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-06-27 23:42:15,409 - INFO - 127.0.0.1 - - [27/Jun/2024 23:42:15] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-06-27 23:42:15,421 - INFO - 127.0.0.1 - - [27/Jun/2024 23:42:15] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-06-27 23:43:56,790 - INFO -  * Detected change in 'C:\\Users\\ryanm\\Desktop\\diabetes\\app.py', reloading
+2024-06-27 23:43:56,825 - INFO -  * Detected change in 'C:\\Users\\ryanm\\Desktop\\diabetes\\app.py', reloading
+2024-06-27 23:43:57,115 - INFO -  * Restarting with stat
+2024-06-27 23:43:57,155 - INFO -  * Restarting with stat
+2024-06-27 23:43:59,285 - WARNING -  * Debugger is active!
+2024-06-27 23:43:59,285 - INFO -  * Debugger PIN: 142-167-814
+2024-06-27 23:43:59,295 - WARNING -  * Debugger is active!
+2024-06-27 23:43:59,295 - INFO -  * Debugger PIN: 142-167-814
+2024-06-27 23:44:02,069 - INFO - 127.0.0.1 - - [27/Jun/2024 23:44:02] "GET / HTTP/1.1" 200 -
+2024-06-27 23:44:02,271 - INFO - 127.0.0.1 - - [27/Jun/2024 23:44:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-06-27 23:44:06,051 - INFO - 127.0.0.1 - - [27/Jun/2024 23:44:06] "GET /register HTTP/1.1" 200 -
+2024-06-27 23:44:06,066 - INFO - 127.0.0.1 - - [27/Jun/2024 23:44:06] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-06-27 23:44:08,278 - INFO - 127.0.0.1 - - [27/Jun/2024 23:44:08] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2024-06-27 23:44:08,291 - INFO - 127.0.0.1 - - [27/Jun/2024 23:44:08] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-06-27 23:44:08,295 - INFO - 127.0.0.1 - - [27/Jun/2024 23:44:08] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-06-27 23:44:08,308 - INFO - 127.0.0.1 - - [27/Jun/2024 23:44:08] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-06-28 00:06:22,603 - INFO -  * Detected change in 'C:\\Users\\ryanm\\Desktop\\diabetes\\app.py', reloading
+2024-06-28 00:06:22,636 - INFO -  * Detected change in 'C:\\Users\\ryanm\\Desktop\\diabetes\\app.py', reloading
+2024-06-28 00:06:22,989 - INFO -  * Restarting with stat
+2024-06-28 00:06:23,042 - INFO -  * Restarting with stat
+2024-06-28 00:06:26,006 - WARNING -  * Debugger is active!
+2024-06-28 00:06:26,006 - INFO -  * Debugger PIN: 142-167-814
+2024-06-28 00:06:29,451 - INFO - 127.0.0.1 - - [28/Jun/2024 00:06:29] "GET / HTTP/1.1" 200 -
+2024-06-28 00:06:29,526 - INFO - 127.0.0.1 - - [28/Jun/2024 00:06:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-06-28 00:06:33,279 - INFO - 127.0.0.1 - - [28/Jun/2024 00:06:33] "GET /register HTTP/1.1" 200 -
+2024-06-28 00:06:33,293 - INFO - 127.0.0.1 - - [28/Jun/2024 00:06:33] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-06-28 00:06:34,884 - INFO - 127.0.0.1 - - [28/Jun/2024 00:06:34] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2024-06-28 00:06:34,899 - INFO - 127.0.0.1 - - [28/Jun/2024 00:06:34] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-06-28 00:06:35,116 - INFO - 127.0.0.1 - - [28/Jun/2024 00:06:35] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-06-28 00:06:35,152 - INFO - 127.0.0.1 - - [28/Jun/2024 00:06:35] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-06-28 00:07:13,148 - INFO - 127.0.0.1 - - [28/Jun/2024 00:07:13] "GET / HTTP/1.1" 200 -
+2024-06-28 00:07:13,156 - INFO - 127.0.0.1 - - [28/Jun/2024 00:07:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-06-28 00:07:16,132 - INFO - 127.0.0.1 - - [28/Jun/2024 00:07:16] "GET /register HTTP/1.1" 200 -
+2024-06-28 00:07:16,147 - INFO - 127.0.0.1 - - [28/Jun/2024 00:07:16] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-06-28 00:07:19,046 - INFO - 127.0.0.1 - - [28/Jun/2024 00:07:19] "GET /login HTTP/1.1" 200 -
+2024-06-28 00:07:19,062 - INFO - 127.0.0.1 - - [28/Jun/2024 00:07:19] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2024-06-28 00:07:21,624 - INFO - 127.0.0.1 - - [28/Jun/2024 00:07:21] "GET /admin_login HTTP/1.1" 200 -
+2024-06-28 00:07:21,642 - INFO - 127.0.0.1 - - [28/Jun/2024 00:07:21] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-06-28 00:07:25,386 - INFO - 127.0.0.1 - - [28/Jun/2024 00:07:25] "GET /admin_register HTTP/1.1" 200 -
+2024-06-28 00:07:25,403 - INFO - 127.0.0.1 - - [28/Jun/2024 00:07:25] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-06-28 00:07:49,515 - INFO - 127.0.0.1 - - [28/Jun/2024 00:07:49] "[32mPOST /admin_register HTTP/1.1[0m" 302 -
+2024-06-28 00:07:49,534 - INFO - 127.0.0.1 - - [28/Jun/2024 00:07:49] "GET /admin_login HTTP/1.1" 200 -
+2024-06-28 00:07:49,553 - INFO - 127.0.0.1 - - [28/Jun/2024 00:07:49] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-06-28 00:07:59,476 - INFO - 127.0.0.1 - - [28/Jun/2024 00:07:59] "[35m[1mPOST /admin_login HTTP/1.1[0m" 500 -
+2024-06-28 00:07:59,495 - INFO - 127.0.0.1 - - [28/Jun/2024 00:07:59] "GET /admin_login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-06-28 00:07:59,496 - INFO - 127.0.0.1 - - [28/Jun/2024 00:07:59] "GET /admin_login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-06-28 00:07:59,550 - INFO - 127.0.0.1 - - [28/Jun/2024 00:07:59] "GET /admin_login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-06-28 00:07:59,562 - INFO - 127.0.0.1 - - [28/Jun/2024 00:07:59] "[36mGET /admin_login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-06-28 00:09:03,627 - INFO - 127.0.0.1 - - [28/Jun/2024 00:09:03] "[35m[1mPOST /admin_login HTTP/1.1[0m" 500 -
+2024-06-28 00:09:03,640 - INFO - 127.0.0.1 - - [28/Jun/2024 00:09:03] "[36mGET /admin_login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-06-28 00:09:03,673 - INFO - 127.0.0.1 - - [28/Jun/2024 00:09:03] "[36mGET /admin_login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-06-28 00:09:03,683 - INFO - 127.0.0.1 - - [28/Jun/2024 00:09:03] "[36mGET /admin_login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-06-28 00:09:03,692 - INFO - 127.0.0.1 - - [28/Jun/2024 00:09:03] "[36mGET /admin_login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-06-28 00:10:06,492 - INFO - 127.0.0.1 - - [28/Jun/2024 00:10:06] "[35m[1mPOST /admin_login HTTP/1.1[0m" 500 -
+2024-06-28 00:10:06,505 - INFO - 127.0.0.1 - - [28/Jun/2024 00:10:06] "[36mGET /admin_login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-06-28 00:10:06,507 - INFO - 127.0.0.1 - - [28/Jun/2024 00:10:06] "[36mGET /admin_login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-06-28 00:10:06,515 - INFO - 127.0.0.1 - - [28/Jun/2024 00:10:06] "[36mGET /admin_login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-06-28 00:10:06,524 - INFO - 127.0.0.1 - - [28/Jun/2024 00:10:06] "[36mGET /admin_login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-06-28 00:14:13,687 - INFO -  * Detected change in 'C:\\Users\\ryanm\\Desktop\\diabetes\\app.py', reloading
+2024-06-28 00:14:13,698 - INFO -  * Detected change in 'C:\\Users\\ryanm\\Desktop\\diabetes\\app.py', reloading
+2024-06-28 00:14:13,976 - INFO -  * Restarting with stat
+2024-06-28 00:14:14,041 - INFO -  * Restarting with stat
+2024-06-28 00:14:16,856 - WARNING -  * Debugger is active!
+2024-06-28 00:14:16,856 - INFO -  * Debugger PIN: 142-167-814
+2024-06-28 00:14:30,847 - INFO - 127.0.0.1 - - [28/Jun/2024 00:14:30] "[35m[1mPOST /admin_login HTTP/1.1[0m" 500 -
+2024-06-28 00:14:30,963 - INFO - 127.0.0.1 - - [28/Jun/2024 00:14:30] "[36mGET /admin_login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-06-28 00:14:30,986 - INFO - 127.0.0.1 - - [28/Jun/2024 00:14:30] "[36mGET /admin_login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-06-28 00:14:31,000 - INFO - 127.0.0.1 - - [28/Jun/2024 00:14:31] "[36mGET /admin_login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-06-28 00:14:31,006 - INFO - 127.0.0.1 - - [28/Jun/2024 00:14:31] "[36mGET /admin_login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-06-28 00:17:58,800 - INFO -  * Detected change in 'C:\\Users\\ryanm\\Desktop\\diabetes\\app.py', reloading
+2024-06-28 00:17:58,823 - INFO -  * Detected change in 'C:\\Users\\ryanm\\Desktop\\diabetes\\app.py', reloading
+2024-06-28 00:17:59,044 - INFO -  * Restarting with stat
+2024-06-28 00:17:59,074 - INFO -  * Restarting with stat
+2024-06-28 00:18:01,350 - WARNING -  * Debugger is active!
+2024-06-28 00:18:01,355 - INFO -  * Debugger PIN: 142-167-814
+2024-06-28 00:18:01,523 - WARNING -  * Debugger is active!
+2024-06-28 00:18:01,526 - INFO -  * Debugger PIN: 142-167-814
+2024-06-28 00:18:31,833 - INFO - 127.0.0.1 - - [28/Jun/2024 00:18:31] "GET / HTTP/1.1" 200 -
+2024-06-28 00:18:32,253 - INFO - 127.0.0.1 - - [28/Jun/2024 00:18:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-06-28 00:18:49,731 - INFO - 127.0.0.1 - - [28/Jun/2024 00:18:49] "GET /prediction HTTP/1.1" 200 -
+2024-06-28 00:18:49,747 - INFO - 127.0.0.1 - - [28/Jun/2024 00:18:49] "[36mGET /static/prediction.css HTTP/1.1[0m" 304 -
+2024-06-28 00:18:56,181 - INFO - 127.0.0.1 - - [28/Jun/2024 00:18:56] "GET /register HTTP/1.1" 200 -
+2024-06-28 00:18:56,194 - INFO - 127.0.0.1 - - [28/Jun/2024 00:18:56] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-06-28 00:18:59,165 - INFO - 127.0.0.1 - - [28/Jun/2024 00:18:59] "GET /login HTTP/1.1" 200 -
+2024-06-28 00:18:59,183 - INFO - 127.0.0.1 - - [28/Jun/2024 00:18:59] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2024-06-28 00:19:01,778 - INFO - 127.0.0.1 - - [28/Jun/2024 00:19:01] "GET /admin_login HTTP/1.1" 200 -
+2024-06-28 00:19:01,791 - INFO - 127.0.0.1 - - [28/Jun/2024 00:19:01] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-06-28 00:19:11,003 - INFO - 127.0.0.1 - - [28/Jun/2024 00:19:11] "[32mPOST /admin_login HTTP/1.1[0m" 302 -
+2024-06-28 00:19:11,363 - INFO - 127.0.0.1 - - [28/Jun/2024 00:19:11] "[35m[1mGET /admin_dashboard HTTP/1.1[0m" 500 -
+2024-06-28 00:19:11,398 - INFO - 127.0.0.1 - - [28/Jun/2024 00:19:11] "GET /admin_dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-06-28 00:19:11,402 - INFO - 127.0.0.1 - - [28/Jun/2024 00:19:11] "GET /admin_dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-06-28 00:19:11,410 - INFO - 127.0.0.1 - - [28/Jun/2024 00:19:11] "GET /admin_dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-06-28 00:19:11,449 - INFO - 127.0.0.1 - - [28/Jun/2024 00:19:11] "[36mGET /admin_dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-06-28 00:20:07,801 - INFO -  * Detected change in 'C:\\Users\\ryanm\\Desktop\\diabetes\\app.py', reloading
+2024-06-28 00:20:07,834 - INFO -  * Detected change in 'C:\\Users\\ryanm\\Desktop\\diabetes\\app.py', reloading
+2024-06-28 00:20:08,013 - INFO -  * Restarting with stat
+2024-06-28 00:20:08,062 - INFO -  * Restarting with stat
+2024-06-28 00:20:09,653 - WARNING -  * Debugger is active!
+2024-06-28 00:20:09,657 - INFO -  * Debugger PIN: 142-167-814
+2024-06-28 00:20:09,692 - WARNING -  * Debugger is active!
+2024-06-28 00:20:09,692 - INFO -  * Debugger PIN: 142-167-814
+2024-06-28 00:20:40,283 - INFO - 127.0.0.1 - - [28/Jun/2024 00:20:40] "[32mPOST /admin_login HTTP/1.1[0m" 302 -
+2024-06-28 00:20:40,707 - INFO - 127.0.0.1 - - [28/Jun/2024 00:20:40] "GET /admin_dashboard HTTP/1.1" 200 -
+2024-06-28 00:20:40,775 - INFO - 127.0.0.1 - - [28/Jun/2024 00:20:40] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-06-28 00:24:15,853 - INFO - 127.0.0.1 - - [28/Jun/2024 00:24:15] "GET /admin_login HTTP/1.1" 200 -
+2024-06-28 00:24:15,875 - INFO - 127.0.0.1 - - [28/Jun/2024 00:24:15] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-06-28 00:24:22,980 - INFO - 127.0.0.1 - - [28/Jun/2024 00:24:22] "GET / HTTP/1.1" 200 -
+2024-06-28 00:24:23,005 - INFO - 127.0.0.1 - - [28/Jun/2024 00:24:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-06-28 00:24:28,149 - INFO - 127.0.0.1 - - [28/Jun/2024 00:24:28] "GET /register HTTP/1.1" 200 -
+2024-06-28 00:24:28,174 - INFO - 127.0.0.1 - - [28/Jun/2024 00:24:28] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-06-28 00:24:31,833 - INFO - 127.0.0.1 - - [28/Jun/2024 00:24:31] "GET /login HTTP/1.1" 200 -
+2024-06-28 00:24:31,851 - INFO - 127.0.0.1 - - [28/Jun/2024 00:24:31] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2024-06-28 00:24:34,521 - INFO - 127.0.0.1 - - [28/Jun/2024 00:24:34] "GET /admin_login HTTP/1.1" 200 -
+2024-06-28 00:24:34,541 - INFO - 127.0.0.1 - - [28/Jun/2024 00:24:34] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-06-28 08:30:44,534 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-28 08:30:44,536 - INFO - [33mPress CTRL+C to quit[0m
+2024-06-28 08:30:44,538 - INFO -  * Restarting with stat
+2024-06-28 08:30:45,725 - WARNING -  * Debugger is active!
+2024-06-28 08:30:45,725 - INFO -  * Debugger PIN: 142-167-814
+2024-06-28 08:30:52,792 - INFO - 127.0.0.1 - - [28/Jun/2024 08:30:52] "GET / HTTP/1.1" 200 -
+2024-06-28 08:30:53,151 - INFO - 127.0.0.1 - - [28/Jun/2024 08:30:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-06-28 08:30:55,490 - INFO - 127.0.0.1 - - [28/Jun/2024 08:30:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-06-28 08:32:32,999 - INFO - 127.0.0.1 - - [28/Jun/2024 08:32:32] "GET / HTTP/1.1" 200 -
+2024-06-28 08:32:33,010 - INFO - 127.0.0.1 - - [28/Jun/2024 08:32:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-06-28 08:32:44,699 - INFO - 127.0.0.1 - - [28/Jun/2024 08:32:44] "GET /register HTTP/1.1" 200 -
+2024-06-28 08:32:44,709 - INFO - 127.0.0.1 - - [28/Jun/2024 08:32:44] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-06-28 08:32:49,257 - INFO - 127.0.0.1 - - [28/Jun/2024 08:32:49] "GET /login HTTP/1.1" 200 -
+2024-06-28 08:32:49,269 - INFO - 127.0.0.1 - - [28/Jun/2024 08:32:49] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2024-06-28 08:35:04,365 - INFO - 127.0.0.1 - - [28/Jun/2024 08:35:04] "GET /login HTTP/1.1" 200 -
+2024-06-28 08:35:04,378 - INFO - 127.0.0.1 - - [28/Jun/2024 08:35:04] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2024-06-28 08:35:06,241 - INFO - 127.0.0.1 - - [28/Jun/2024 08:35:06] "GET /admin_login HTTP/1.1" 200 -
+2024-06-28 08:35:06,254 - INFO - 127.0.0.1 - - [28/Jun/2024 08:35:06] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-06-28 08:35:16,145 - INFO - 127.0.0.1 - - [28/Jun/2024 08:35:16] "GET /admin_register HTTP/1.1" 200 -
+2024-06-28 08:35:16,159 - INFO - 127.0.0.1 - - [28/Jun/2024 08:35:16] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-06-28 08:35:22,598 - INFO - 127.0.0.1 - - [28/Jun/2024 08:35:22] "GET /admin_login HTTP/1.1" 200 -
+2024-06-28 08:35:22,610 - INFO - 127.0.0.1 - - [28/Jun/2024 08:35:22] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-06-28 08:35:42,694 - INFO - 127.0.0.1 - - [28/Jun/2024 08:35:42] "GET /admin_login HTTP/1.1" 200 -
+2024-06-28 08:35:42,710 - INFO - 127.0.0.1 - - [28/Jun/2024 08:35:42] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-06-28 08:35:51,253 - INFO - 127.0.0.1 - - [28/Jun/2024 08:35:51] "[32mPOST /admin_login HTTP/1.1[0m" 302 -
+2024-06-28 08:35:51,273 - INFO - 127.0.0.1 - - [28/Jun/2024 08:35:51] "GET /admin_dashboard HTTP/1.1" 200 -
+2024-06-28 08:35:51,292 - INFO - 127.0.0.1 - - [28/Jun/2024 08:35:51] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-06-28 08:38:04,743 - INFO - 127.0.0.1 - - [28/Jun/2024 08:38:04] "GET /admin_dashboard HTTP/1.1" 200 -
+2024-06-28 08:38:04,760 - INFO - 127.0.0.1 - - [28/Jun/2024 08:38:04] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-06-28 08:38:08,739 - INFO - 127.0.0.1 - - [28/Jun/2024 08:38:08] "GET /report HTTP/1.1" 200 -
+2024-06-28 08:38:08,767 - INFO - 127.0.0.1 - - [28/Jun/2024 08:38:08] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-06-28 08:39:11,538 - INFO -  * Detected change in 'C:\\Users\\ryanm\\Desktop\\diabetes\\app.py', reloading
+2024-06-28 08:39:11,762 - INFO -  * Restarting with stat
+2024-06-28 08:39:14,033 - WARNING -  * Debugger is active!
+2024-06-28 08:39:14,036 - INFO -  * Debugger PIN: 142-167-814
+2024-06-28 08:39:15,713 - INFO - 127.0.0.1 - - [28/Jun/2024 08:39:15] "GET /admin_dashboard HTTP/1.1" 200 -
+2024-06-28 08:39:15,773 - INFO - 127.0.0.1 - - [28/Jun/2024 08:39:15] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-06-28 08:40:02,540 - INFO - 127.0.0.1 - - [28/Jun/2024 08:40:02] "GET /report HTTP/1.1" 200 -
+2024-06-28 08:40:02,598 - INFO - 127.0.0.1 - - [28/Jun/2024 08:40:02] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-06-28 08:41:27,173 - INFO - 127.0.0.1 - - [28/Jun/2024 08:41:27] "GET / HTTP/1.1" 200 -
+2024-06-28 08:41:27,185 - INFO - 127.0.0.1 - - [28/Jun/2024 08:41:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-06-28 08:41:33,308 - INFO - 127.0.0.1 - - [28/Jun/2024 08:41:33] "GET /register HTTP/1.1" 200 -
+2024-06-28 08:41:33,320 - INFO - 127.0.0.1 - - [28/Jun/2024 08:41:33] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-06-28 08:41:36,509 - INFO - 127.0.0.1 - - [28/Jun/2024 08:41:36] "GET /login HTTP/1.1" 200 -
+2024-06-28 08:41:36,521 - INFO - 127.0.0.1 - - [28/Jun/2024 08:41:36] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2024-06-28 08:41:39,880 - INFO - 127.0.0.1 - - [28/Jun/2024 08:41:39] "GET /admin_login HTTP/1.1" 200 -
+2024-06-28 08:41:39,893 - INFO - 127.0.0.1 - - [28/Jun/2024 08:41:39] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-06-28 08:41:47,664 - INFO - 127.0.0.1 - - [28/Jun/2024 08:41:47] "[32mPOST /admin_login HTTP/1.1[0m" 302 -
+2024-06-28 08:41:47,676 - INFO - 127.0.0.1 - - [28/Jun/2024 08:41:47] "GET /admin_dashboard HTTP/1.1" 200 -
+2024-06-28 08:41:47,701 - INFO - 127.0.0.1 - - [28/Jun/2024 08:41:47] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-06-28 08:41:50,227 - INFO - 127.0.0.1 - - [28/Jun/2024 08:41:50] "GET /report HTTP/1.1" 200 -
+2024-06-28 08:41:50,241 - INFO - 127.0.0.1 - - [28/Jun/2024 08:41:50] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-06-28 08:41:52,201 - INFO - 127.0.0.1 - - [28/Jun/2024 08:41:52] "GET /admin_dashboard HTTP/1.1" 200 -
+2024-06-28 08:41:52,214 - INFO - 127.0.0.1 - - [28/Jun/2024 08:41:52] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-06-28 08:42:08,220 - INFO - 127.0.0.1 - - [28/Jun/2024 08:42:08] "GET /report HTTP/1.1" 200 -
+2024-06-28 08:42:08,234 - INFO - 127.0.0.1 - - [28/Jun/2024 08:42:08] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-06-28 08:42:23,535 - INFO - 127.0.0.1 - - [28/Jun/2024 08:42:23] "GET /admin_dashboard HTTP/1.1" 200 -
+2024-06-28 08:42:23,553 - INFO - 127.0.0.1 - - [28/Jun/2024 08:42:23] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-06-28 08:42:51,573 - INFO - 127.0.0.1 - - [28/Jun/2024 08:42:51] "GET /admin_dashboard HTTP/1.1" 200 -
+2024-06-28 08:42:51,591 - INFO - 127.0.0.1 - - [28/Jun/2024 08:42:51] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-06-28 08:42:55,503 - INFO - 127.0.0.1 - - [28/Jun/2024 08:42:55] "GET /admin_dashboard HTTP/1.1" 200 -
+2024-06-28 08:42:55,519 - INFO - 127.0.0.1 - - [28/Jun/2024 08:42:55] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-06-28 08:43:14,413 - INFO - 127.0.0.1 - - [28/Jun/2024 08:43:14] "GET /admin_dashboard HTTP/1.1" 200 -
+2024-06-28 08:43:14,423 - INFO - 127.0.0.1 - - [28/Jun/2024 08:43:14] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2024-06-28 08:45:29,406 - INFO - 127.0.0.1 - - [28/Jun/2024 08:45:29] "GET /admin_dashboard HTTP/1.1" 200 -
+2024-06-28 08:45:29,464 - INFO - 127.0.0.1 - - [28/Jun/2024 08:45:29] "GET /static/admin_dashboard.css HTTP/1.1" 200 -
+2024-06-28 08:45:39,061 - INFO - 127.0.0.1 - - [28/Jun/2024 08:45:39] "GET /report HTTP/1.1" 200 -
+2024-06-28 08:45:39,077 - INFO - 127.0.0.1 - - [28/Jun/2024 08:45:39] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-06-28 08:46:07,559 - INFO - 127.0.0.1 - - [28/Jun/2024 08:46:07] "GET / HTTP/1.1" 200 -
+2024-06-28 08:46:07,576 - INFO - 127.0.0.1 - - [28/Jun/2024 08:46:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-06-28 08:46:16,539 - INFO - 127.0.0.1 - - [28/Jun/2024 08:46:16] "GET / HTTP/1.1" 200 -
+2024-06-28 08:46:16,550 - INFO - 127.0.0.1 - - [28/Jun/2024 08:46:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-06-28 08:46:20,178 - INFO - 127.0.0.1 - - [28/Jun/2024 08:46:20] "[32mGET /prediction HTTP/1.1[0m" 302 -
+2024-06-28 08:46:20,182 - INFO - 127.0.0.1 - - [28/Jun/2024 08:46:20] "GET /login HTTP/1.1" 200 -
+2024-06-28 08:46:20,196 - INFO - 127.0.0.1 - - [28/Jun/2024 08:46:20] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2024-06-28 08:46:55,408 - INFO - 127.0.0.1 - - [28/Jun/2024 08:46:55] "GET /login HTTP/1.1" 200 -
+2024-06-28 08:46:55,414 - INFO - 127.0.0.1 - - [28/Jun/2024 08:46:55] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2024-06-28 08:49:31,287 - INFO - 127.0.0.1 - - [28/Jun/2024 08:49:31] "GET /login HTTP/1.1" 200 -
+2024-06-28 08:49:31,359 - INFO - 127.0.0.1 - - [28/Jun/2024 08:49:31] "GET /static/login.css HTTP/1.1" 200 -
+2024-06-28 08:49:42,006 - INFO - 127.0.0.1 - - [28/Jun/2024 08:49:42] "GET / HTTP/1.1" 200 -
+2024-06-28 08:49:42,020 - INFO - 127.0.0.1 - - [28/Jun/2024 08:49:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-06-28 08:51:44,024 - INFO - 127.0.0.1 - - [28/Jun/2024 08:51:44] "GET / HTTP/1.1" 200 -
+2024-06-28 08:51:44,052 - INFO - 127.0.0.1 - - [28/Jun/2024 08:51:44] "GET /static/style.css HTTP/1.1" 200 -
+2024-06-28 08:51:51,299 - INFO - 127.0.0.1 - - [28/Jun/2024 08:51:51] "GET /register HTTP/1.1" 200 -
+2024-06-28 08:51:51,311 - INFO - 127.0.0.1 - - [28/Jun/2024 08:51:51] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-06-28 08:53:33,771 - INFO - 127.0.0.1 - - [28/Jun/2024 08:53:33] "GET /register HTTP/1.1" 200 -
+2024-06-28 08:53:33,784 - INFO - 127.0.0.1 - - [28/Jun/2024 08:53:33] "GET /static/register.css HTTP/1.1" 200 -
+2024-06-28 08:53:41,367 - INFO - 127.0.0.1 - - [28/Jun/2024 08:53:41] "GET /login HTTP/1.1" 200 -
+2024-06-28 08:53:41,761 - INFO - 127.0.0.1 - - [28/Jun/2024 08:53:41] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2024-06-28 08:53:46,702 - INFO - 127.0.0.1 - - [28/Jun/2024 08:53:46] "GET /admin_login HTTP/1.1" 200 -
+2024-06-28 08:53:46,718 - INFO - 127.0.0.1 - - [28/Jun/2024 08:53:46] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-06-28 08:53:50,782 - INFO - 127.0.0.1 - - [28/Jun/2024 08:53:50] "GET /admin_register HTTP/1.1" 200 -
+2024-06-28 08:53:50,795 - INFO - 127.0.0.1 - - [28/Jun/2024 08:53:50] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-06-28 08:53:57,907 - INFO - 127.0.0.1 - - [28/Jun/2024 08:53:57] "GET /admin_login HTTP/1.1" 200 -
+2024-06-28 08:53:57,921 - INFO - 127.0.0.1 - - [28/Jun/2024 08:53:57] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-06-28 08:54:22,548 - INFO - 127.0.0.1 - - [28/Jun/2024 08:54:22] "[32mPOST /admin_login HTTP/1.1[0m" 302 -
+2024-06-28 08:54:22,554 - INFO - 127.0.0.1 - - [28/Jun/2024 08:54:22] "GET /admin_dashboard HTTP/1.1" 200 -
+2024-06-28 08:54:22,573 - INFO - 127.0.0.1 - - [28/Jun/2024 08:54:22] "[36mGET /static/admin_dashboard.css HTTP/1.1[0m" 304 -
+2024-06-28 08:54:51,904 - INFO - 127.0.0.1 - - [28/Jun/2024 08:54:51] "GET /report HTTP/1.1" 200 -
+2024-06-28 08:54:51,920 - INFO - 127.0.0.1 - - [28/Jun/2024 08:54:51] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-06-28 08:56:33,644 - INFO - 127.0.0.1 - - [28/Jun/2024 08:56:33] "GET /report HTTP/1.1" 200 -
+2024-06-28 08:56:33,719 - INFO - 127.0.0.1 - - [28/Jun/2024 08:56:33] "GET /static/report.css HTTP/1.1" 200 -
+2024-06-28 08:58:30,284 - INFO - 127.0.0.1 - - [28/Jun/2024 08:58:30] "GET /report HTTP/1.1" 200 -
+2024-06-28 08:58:30,304 - INFO - 127.0.0.1 - - [28/Jun/2024 08:58:30] "GET /static/report.css HTTP/1.1" 200 -
+2024-06-28 09:00:41,794 - INFO - 127.0.0.1 - - [28/Jun/2024 09:00:41] "GET /report HTTP/1.1" 200 -
+2024-06-28 09:00:41,809 - INFO - 127.0.0.1 - - [28/Jun/2024 09:00:41] "GET /static/report.css HTTP/1.1" 200 -
+2024-06-28 09:03:15,704 - INFO - 127.0.0.1 - - [28/Jun/2024 09:03:15] "GET /report HTTP/1.1" 200 -
+2024-06-28 09:03:15,724 - INFO - 127.0.0.1 - - [28/Jun/2024 09:03:15] "GET /static/report.css HTTP/1.1" 200 -
+2024-06-28 09:03:24,784 - INFO - 127.0.0.1 - - [28/Jun/2024 09:03:24] "GET /admin_dashboard HTTP/1.1" 200 -
+2024-06-28 09:03:24,796 - INFO - 127.0.0.1 - - [28/Jun/2024 09:03:24] "[36mGET /static/admin_dashboard.css HTTP/1.1[0m" 304 -
+2024-06-28 09:05:49,205 - INFO - 127.0.0.1 - - [28/Jun/2024 09:05:49] "GET /admin_dashboard HTTP/1.1" 200 -
+2024-06-28 09:05:49,224 - INFO - 127.0.0.1 - - [28/Jun/2024 09:05:49] "GET /static/admin_dashboard.css HTTP/1.1" 200 -
+2024-06-28 09:06:23,174 - INFO - 127.0.0.1 - - [28/Jun/2024 09:06:23] "GET /admin_dashboard HTTP/1.1" 200 -
+2024-06-28 09:06:23,191 - INFO - 127.0.0.1 - - [28/Jun/2024 09:06:23] "GET /static/admin_dashboard.css HTTP/1.1" 200 -
+2024-06-28 09:09:14,995 - INFO - 127.0.0.1 - - [28/Jun/2024 09:09:14] "GET /admin_dashboard HTTP/1.1" 200 -
+2024-06-28 09:09:15,054 - INFO - 127.0.0.1 - - [28/Jun/2024 09:09:15] "GET /static/admin_dashboard.css HTTP/1.1" 200 -
+2024-06-28 09:10:43,650 - INFO - 127.0.0.1 - - [28/Jun/2024 09:10:43] "GET /admin_dashboard HTTP/1.1" 200 -
+2024-06-28 09:10:43,665 - INFO - 127.0.0.1 - - [28/Jun/2024 09:10:43] "GET /static/admin_dashboard.css HTTP/1.1" 200 -
+2024-06-28 09:11:47,293 - INFO - 127.0.0.1 - - [28/Jun/2024 09:11:47] "GET /admin_dashboard HTTP/1.1" 200 -
+2024-06-28 09:11:47,314 - INFO - 127.0.0.1 - - [28/Jun/2024 09:11:47] "GET /static/admin_dashboard.css HTTP/1.1" 200 -
+2024-06-28 09:12:11,819 - INFO - 127.0.0.1 - - [28/Jun/2024 09:12:11] "GET /admin_dashboard HTTP/1.1" 200 -
+2024-06-28 09:12:11,829 - INFO - 127.0.0.1 - - [28/Jun/2024 09:12:11] "[36mGET /static/admin_dashboard.css HTTP/1.1[0m" 304 -
+2024-06-28 09:12:16,340 - INFO - 127.0.0.1 - - [28/Jun/2024 09:12:16] "GET /report HTTP/1.1" 200 -
+2024-06-28 09:12:16,353 - INFO - 127.0.0.1 - - [28/Jun/2024 09:12:16] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-06-28 09:12:19,633 - INFO - 127.0.0.1 - - [28/Jun/2024 09:12:19] "GET /admin_dashboard HTTP/1.1" 200 -
+2024-06-28 09:12:19,648 - INFO - 127.0.0.1 - - [28/Jun/2024 09:12:19] "[36mGET /static/admin_dashboard.css HTTP/1.1[0m" 304 -
+2024-06-28 09:12:22,460 - INFO - 127.0.0.1 - - [28/Jun/2024 09:12:22] "GET /admin_login HTTP/1.1" 200 -
+2024-06-28 09:12:22,473 - INFO - 127.0.0.1 - - [28/Jun/2024 09:12:22] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-06-28 09:12:30,411 - INFO - 127.0.0.1 - - [28/Jun/2024 09:12:30] "GET / HTTP/1.1" 200 -
+2024-06-28 09:12:30,425 - INFO - 127.0.0.1 - - [28/Jun/2024 09:12:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-06-28 09:12:33,489 - INFO - 127.0.0.1 - - [28/Jun/2024 09:12:33] "[32mGET /prediction HTTP/1.1[0m" 302 -
+2024-06-28 09:12:33,494 - INFO - 127.0.0.1 - - [28/Jun/2024 09:12:33] "GET /login HTTP/1.1" 200 -
+2024-06-28 09:12:33,508 - INFO - 127.0.0.1 - - [28/Jun/2024 09:12:33] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2024-06-28 09:12:42,278 - INFO - 127.0.0.1 - - [28/Jun/2024 09:12:42] "GET /login HTTP/1.1" 200 -
+2024-06-28 09:12:42,288 - INFO - 127.0.0.1 - - [28/Jun/2024 09:12:42] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2024-06-28 09:12:55,903 - INFO - 127.0.0.1 - - [28/Jun/2024 09:12:55] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-06-28 09:12:55,915 - INFO - 127.0.0.1 - - [28/Jun/2024 09:12:55] "GET /prediction HTTP/1.1" 200 -
+2024-06-28 09:12:55,935 - INFO - 127.0.0.1 - - [28/Jun/2024 09:12:55] "[36mGET /static/prediction.css HTTP/1.1[0m" 304 -
+2024-06-28 09:13:39,026 - INFO - 127.0.0.1 - - [28/Jun/2024 09:13:39] "GET /prediction HTTP/1.1" 200 -
+2024-06-28 09:13:39,036 - INFO - 127.0.0.1 - - [28/Jun/2024 09:13:39] "[36mGET /static/prediction.css HTTP/1.1[0m" 304 -
+2024-06-28 09:15:08,114 - INFO - 127.0.0.1 - - [28/Jun/2024 09:15:08] "GET /prediction HTTP/1.1" 200 -
+2024-06-28 09:15:08,129 - INFO - 127.0.0.1 - - [28/Jun/2024 09:15:08] "[36mGET /static/prediction.css HTTP/1.1[0m" 304 -
+2024-06-28 09:15:29,215 - INFO - 127.0.0.1 - - [28/Jun/2024 09:15:29] "GET /prediction HTTP/1.1" 200 -
+2024-06-28 09:15:29,230 - INFO - 127.0.0.1 - - [28/Jun/2024 09:15:29] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-06-28 09:15:56,501 - INFO - 127.0.0.1 - - [28/Jun/2024 09:15:56] "GET /prediction HTTP/1.1" 200 -
+2024-06-28 09:15:56,512 - INFO - 127.0.0.1 - - [28/Jun/2024 09:15:56] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2024-06-28 09:16:57,821 - INFO - 127.0.0.1 - - [28/Jun/2024 09:16:57] "GET /prediction HTTP/1.1" 200 -
+2024-06-28 09:16:57,835 - INFO - 127.0.0.1 - - [28/Jun/2024 09:16:57] "[36mGET /static/prediction.css HTTP/1.1[0m" 304 -
+2024-06-28 09:18:00,215 - INFO - 127.0.0.1 - - [28/Jun/2024 09:18:00] "GET /prediction HTTP/1.1" 200 -
+2024-06-28 09:18:00,456 - INFO - 127.0.0.1 - - [28/Jun/2024 09:18:00] "GET /static/prediction.css HTTP/1.1" 200 -
+2024-06-28 09:20:36,863 - INFO - 127.0.0.1 - - [28/Jun/2024 09:20:36] "GET /prediction HTTP/1.1" 200 -
+2024-06-28 09:20:36,888 - INFO - 127.0.0.1 - - [28/Jun/2024 09:20:36] "GET /static/prediction.css HTTP/1.1" 200 -
+2024-06-28 09:22:42,108 - INFO - 127.0.0.1 - - [28/Jun/2024 09:22:42] "GET /prediction HTTP/1.1" 200 -
+2024-06-28 09:22:42,123 - INFO - 127.0.0.1 - - [28/Jun/2024 09:22:42] "GET /static/prediction.css HTTP/1.1" 200 -
+2024-06-28 09:22:47,155 - INFO - 127.0.0.1 - - [28/Jun/2024 09:22:47] "GET /prediction HTTP/1.1" 200 -
+2024-06-28 09:22:47,172 - INFO - 127.0.0.1 - - [28/Jun/2024 09:22:47] "[36mGET /static/prediction.css HTTP/1.1[0m" 304 -
+2024-06-28 09:22:48,451 - INFO - 127.0.0.1 - - [28/Jun/2024 09:22:48] "GET /prediction HTTP/1.1" 200 -
+2024-06-28 09:22:48,460 - INFO - 127.0.0.1 - - [28/Jun/2024 09:22:48] "[36mGET /static/prediction.css HTTP/1.1[0m" 304 -
+2024-06-28 09:24:03,579 - INFO - 127.0.0.1 - - [28/Jun/2024 09:24:03] "GET /prediction HTTP/1.1" 200 -
+2024-06-28 09:24:03,597 - INFO - 127.0.0.1 - - [28/Jun/2024 09:24:03] "GET /static/prediction.css HTTP/1.1" 200 -
+2024-06-28 09:25:05,628 - INFO - 127.0.0.1 - - [28/Jun/2024 09:25:05] "GET /prediction HTTP/1.1" 200 -
+2024-06-28 09:25:05,645 - INFO - 127.0.0.1 - - [28/Jun/2024 09:25:05] "GET /static/prediction.css HTTP/1.1" 200 -
+2024-06-28 09:26:33,235 - INFO - 127.0.0.1 - - [28/Jun/2024 09:26:33] "GET /prediction HTTP/1.1" 200 -
+2024-06-28 09:26:33,255 - INFO - 127.0.0.1 - - [28/Jun/2024 09:26:33] "GET /static/prediction.css HTTP/1.1" 200 -
+2024-06-28 09:26:42,432 - INFO - 127.0.0.1 - - [28/Jun/2024 09:26:42] "GET / HTTP/1.1" 200 -
+2024-06-28 09:26:42,446 - INFO - 127.0.0.1 - - [28/Jun/2024 09:26:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-06-28 09:26:46,883 - INFO - 127.0.0.1 - - [28/Jun/2024 09:26:46] "GET / HTTP/1.1" 200 -
+2024-06-28 09:26:46,896 - INFO - 127.0.0.1 - - [28/Jun/2024 09:26:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-06-28 09:26:47,950 - INFO - 127.0.0.1 - - [28/Jun/2024 09:26:47] "GET /register HTTP/1.1" 200 -
+2024-06-28 09:26:47,965 - INFO - 127.0.0.1 - - [28/Jun/2024 09:26:47] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-06-28 09:26:53,890 - INFO - 127.0.0.1 - - [28/Jun/2024 09:26:53] "GET /login HTTP/1.1" 200 -
+2024-06-28 09:26:53,905 - INFO - 127.0.0.1 - - [28/Jun/2024 09:26:53] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2024-06-28 09:26:58,123 - INFO - 127.0.0.1 - - [28/Jun/2024 09:26:58] "GET / HTTP/1.1" 200 -
+2024-06-28 09:26:58,137 - INFO - 127.0.0.1 - - [28/Jun/2024 09:26:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-06-28 09:26:59,437 - INFO - 127.0.0.1 - - [28/Jun/2024 09:26:59] "GET /prediction HTTP/1.1" 200 -
+2024-06-28 09:26:59,451 - INFO - 127.0.0.1 - - [28/Jun/2024 09:26:59] "[36mGET /static/prediction.css HTTP/1.1[0m" 304 -
+2024-06-28 09:30:03,995 - INFO - 127.0.0.1 - - [28/Jun/2024 09:30:03] "GET /prediction HTTP/1.1" 200 -
+2024-06-28 09:30:04,016 - INFO - 127.0.0.1 - - [28/Jun/2024 09:30:04] "GET /static/prediction.css HTTP/1.1" 200 -
+2024-06-28 09:30:22,965 - INFO - 127.0.0.1 - - [28/Jun/2024 09:30:22] "GET /prediction HTTP/1.1" 200 -
+2024-06-28 09:30:22,978 - INFO - 127.0.0.1 - - [28/Jun/2024 09:30:22] "GET /static/prediction.css HTTP/1.1" 200 -
+2024-06-28 09:30:46,656 - INFO - 127.0.0.1 - - [28/Jun/2024 09:30:46] "POST /prediction HTTP/1.1" 200 -
+2024-06-28 09:30:46,670 - INFO - 127.0.0.1 - - [28/Jun/2024 09:30:46] "[36mGET /static/result.css HTTP/1.1[0m" 304 -
+2024-06-28 09:34:04,445 - INFO - 127.0.0.1 - - [28/Jun/2024 09:34:04] "[35m[1mPOST /prediction HTTP/1.1[0m" 500 -
+2024-06-28 09:34:04,458 - INFO - 127.0.0.1 - - [28/Jun/2024 09:34:04] "GET /prediction?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-06-28 09:34:04,506 - INFO - 127.0.0.1 - - [28/Jun/2024 09:34:04] "GET /prediction?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-06-28 09:34:04,543 - INFO - 127.0.0.1 - - [28/Jun/2024 09:34:04] "GET /prediction?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-06-28 09:34:04,555 - INFO - 127.0.0.1 - - [28/Jun/2024 09:34:04] "[36mGET /prediction?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-06-28 09:34:11,420 - INFO - 127.0.0.1 - - [28/Jun/2024 09:34:11] "GET /prediction HTTP/1.1" 200 -
+2024-06-28 09:34:13,648 - INFO - 127.0.0.1 - - [28/Jun/2024 09:34:13] "[35m[1mPOST /prediction HTTP/1.1[0m" 500 -
+2024-06-28 09:34:13,660 - INFO - 127.0.0.1 - - [28/Jun/2024 09:34:13] "[36mGET /prediction?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-06-28 09:34:13,661 - INFO - 127.0.0.1 - - [28/Jun/2024 09:34:13] "[36mGET /prediction?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-06-28 09:34:13,670 - INFO - 127.0.0.1 - - [28/Jun/2024 09:34:13] "[36mGET /prediction?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-06-28 09:34:13,680 - INFO - 127.0.0.1 - - [28/Jun/2024 09:34:13] "[36mGET /prediction?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-06-28 09:36:04,036 - INFO - 127.0.0.1 - - [28/Jun/2024 09:36:04] "POST /prediction HTTP/1.1" 200 -
+2024-06-28 09:36:04,051 - INFO - 127.0.0.1 - - [28/Jun/2024 09:36:04] "[36mGET /static/result.css HTTP/1.1[0m" 304 -
+2024-06-28 09:37:20,818 - INFO - 127.0.0.1 - - [28/Jun/2024 09:37:20] "POST /prediction HTTP/1.1" 200 -
+2024-06-28 09:37:20,830 - INFO - 127.0.0.1 - - [28/Jun/2024 09:37:20] "[36mGET /static/result.css HTTP/1.1[0m" 304 -
+2024-06-28 09:38:25,654 - INFO - 127.0.0.1 - - [28/Jun/2024 09:38:25] "POST /prediction HTTP/1.1" 200 -
+2024-06-28 09:38:25,705 - INFO - 127.0.0.1 - - [28/Jun/2024 09:38:25] "GET /static/result.css HTTP/1.1" 200 -
+2024-06-28 09:38:34,170 - INFO - 127.0.0.1 - - [28/Jun/2024 09:38:34] "GET /prediction HTTP/1.1" 200 -
+2024-06-28 09:38:34,184 - INFO - 127.0.0.1 - - [28/Jun/2024 09:38:34] "[36mGET /static/prediction.css HTTP/1.1[0m" 304 -
+2024-06-28 09:38:55,448 - INFO - 127.0.0.1 - - [28/Jun/2024 09:38:55] "POST /prediction HTTP/1.1" 200 -
+2024-06-28 09:38:55,458 - INFO - 127.0.0.1 - - [28/Jun/2024 09:38:55] "[36mGET /static/result.css HTTP/1.1[0m" 304 -
+2024-06-28 09:40:39,925 - INFO - 127.0.0.1 - - [28/Jun/2024 09:40:39] "POST /prediction HTTP/1.1" 200 -
+2024-06-28 09:40:39,938 - INFO - 127.0.0.1 - - [28/Jun/2024 09:40:39] "GET /static/result.css HTTP/1.1" 200 -
+2024-06-28 09:40:44,953 - INFO - 127.0.0.1 - - [28/Jun/2024 09:40:44] "POST /prediction HTTP/1.1" 200 -
+2024-06-28 09:40:44,964 - INFO - 127.0.0.1 - - [28/Jun/2024 09:40:44] "[36mGET /static/result.css HTTP/1.1[0m" 304 -
+2024-06-28 09:48:49,013 - INFO - 127.0.0.1 - - [28/Jun/2024 09:48:49] "POST /prediction HTTP/1.1" 200 -
+2024-06-28 09:48:49,028 - INFO - 127.0.0.1 - - [28/Jun/2024 09:48:49] "GET /static/result.css HTTP/1.1" 200 -
+2024-06-28 09:59:31,140 - INFO - 127.0.0.1 - - [28/Jun/2024 09:59:31] "POST /prediction HTTP/1.1" 200 -
+2024-06-28 09:59:31,164 - INFO - 127.0.0.1 - - [28/Jun/2024 09:59:31] "GET /static/result.css HTTP/1.1" 200 -
+2024-06-28 09:59:48,081 - INFO - 127.0.0.1 - - [28/Jun/2024 09:59:48] "GET /prediction HTTP/1.1" 200 -
+2024-06-28 09:59:48,093 - INFO - 127.0.0.1 - - [28/Jun/2024 09:59:48] "[36mGET /static/prediction.css HTTP/1.1[0m" 304 -
+2024-06-28 10:01:11,877 - INFO - 127.0.0.1 - - [28/Jun/2024 10:01:11] "GET /prediction HTTP/1.1" 200 -
+2024-06-28 10:01:11,947 - INFO - 127.0.0.1 - - [28/Jun/2024 10:01:11] "GET /static/prediction.css HTTP/1.1" 200 -
+2024-06-28 10:01:27,487 - INFO - 127.0.0.1 - - [28/Jun/2024 10:01:27] "GET /prediction HTTP/1.1" 200 -
+2024-06-28 10:01:27,499 - INFO - 127.0.0.1 - - [28/Jun/2024 10:01:27] "GET /static/prediction.css HTTP/1.1" 200 -
+2024-06-28 10:01:50,758 - INFO - 127.0.0.1 - - [28/Jun/2024 10:01:50] "GET /prediction HTTP/1.1" 200 -
+2024-06-28 10:01:50,837 - INFO - 127.0.0.1 - - [28/Jun/2024 10:01:50] "GET /static/prediction.css HTTP/1.1" 200 -
+2024-06-28 10:02:31,519 - INFO - 127.0.0.1 - - [28/Jun/2024 10:02:31] "GET /prediction HTTP/1.1" 200 -
+2024-06-28 10:02:31,535 - INFO - 127.0.0.1 - - [28/Jun/2024 10:02:31] "GET /static/prediction.css HTTP/1.1" 200 -
+2024-06-28 10:03:14,936 - INFO - 127.0.0.1 - - [28/Jun/2024 10:03:14] "GET /prediction HTTP/1.1" 200 -
+2024-06-28 10:03:14,947 - INFO - 127.0.0.1 - - [28/Jun/2024 10:03:14] "GET /static/prediction.css HTTP/1.1" 200 -
+2024-06-28 10:03:52,012 - INFO - 127.0.0.1 - - [28/Jun/2024 10:03:52] "GET /prediction HTTP/1.1" 200 -
+2024-06-28 10:03:52,029 - INFO - 127.0.0.1 - - [28/Jun/2024 10:03:52] "GET /static/prediction.css HTTP/1.1" 200 -
+2024-06-28 10:03:59,032 - INFO - 127.0.0.1 - - [28/Jun/2024 10:03:59] "GET / HTTP/1.1" 200 -
+2024-06-28 10:03:59,080 - INFO - 127.0.0.1 - - [28/Jun/2024 10:03:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-06-28 10:04:03,597 - INFO - 127.0.0.1 - - [28/Jun/2024 10:04:03] "GET /prediction HTTP/1.1" 200 -
+2024-06-28 10:04:03,611 - INFO - 127.0.0.1 - - [28/Jun/2024 10:04:03] "[36mGET /static/prediction.css HTTP/1.1[0m" 304 -
+2024-06-28 10:04:22,427 - INFO - 127.0.0.1 - - [28/Jun/2024 10:04:22] "GET /prediction HTTP/1.1" 200 -
+2024-06-28 10:04:22,444 - INFO - 127.0.0.1 - - [28/Jun/2024 10:04:22] "GET /static/prediction.css HTTP/1.1" 200 -
+2024-06-28 10:04:34,769 - INFO - 127.0.0.1 - - [28/Jun/2024 10:04:34] "GET / HTTP/1.1" 200 -
+2024-06-28 10:04:34,784 - INFO - 127.0.0.1 - - [28/Jun/2024 10:04:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-06-28 10:05:08,879 - INFO - 127.0.0.1 - - [28/Jun/2024 10:05:08] "GET / HTTP/1.1" 200 -
+2024-06-28 10:05:08,893 - INFO - 127.0.0.1 - - [28/Jun/2024 10:05:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-06-28 10:05:10,784 - INFO - 127.0.0.1 - - [28/Jun/2024 10:05:10] "GET /register HTTP/1.1" 200 -
+2024-06-28 10:05:10,799 - INFO - 127.0.0.1 - - [28/Jun/2024 10:05:10] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-06-28 10:05:34,290 - INFO - 127.0.0.1 - - [28/Jun/2024 10:05:34] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2024-06-28 10:05:34,306 - INFO - 127.0.0.1 - - [28/Jun/2024 10:05:34] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-06-28 10:05:34,309 - INFO - 127.0.0.1 - - [28/Jun/2024 10:05:34] "GET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-06-28 10:05:34,325 - INFO - 127.0.0.1 - - [28/Jun/2024 10:05:34] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-06-28 10:05:34,335 - INFO - 127.0.0.1 - - [28/Jun/2024 10:05:34] "[36mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-06-28 10:06:38,402 - INFO -  * Detected change in 'C:\\Users\\ryanm\\Desktop\\diabetes\\app.py', reloading
+2024-06-28 10:06:40,836 - INFO -  * Restarting with stat
+2024-06-28 10:06:43,347 - WARNING -  * Debugger is active!
+2024-06-28 10:06:43,347 - INFO -  * Debugger PIN: 142-167-814
+2024-06-28 10:06:46,632 - INFO - 127.0.0.1 - - [28/Jun/2024 10:06:46] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2024-06-28 10:06:46,708 - INFO - 127.0.0.1 - - [28/Jun/2024 10:06:46] "[36mGET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-06-28 10:06:46,738 - INFO - 127.0.0.1 - - [28/Jun/2024 10:06:46] "[36mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-06-28 10:06:46,751 - INFO - 127.0.0.1 - - [28/Jun/2024 10:06:46] "[36mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-06-28 10:06:46,762 - INFO - 127.0.0.1 - - [28/Jun/2024 10:06:46] "[36mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-06-28 10:07:14,491 - INFO -  * Detected change in 'C:\\Users\\ryanm\\Desktop\\diabetes\\app.py', reloading
+2024-06-28 10:07:14,658 - INFO -  * Restarting with stat
+2024-06-28 10:07:16,078 - WARNING -  * Debugger is active!
+2024-06-28 10:07:16,087 - INFO -  * Debugger PIN: 142-167-814
+2024-06-28 10:07:20,830 - INFO - 127.0.0.1 - - [28/Jun/2024 10:07:20] "[32mPOST /register HTTP/1.1[0m" 302 -
+2024-06-28 10:07:20,847 - INFO - 127.0.0.1 - - [28/Jun/2024 10:07:20] "GET /login HTTP/1.1" 200 -
+2024-06-28 10:07:20,952 - INFO - 127.0.0.1 - - [28/Jun/2024 10:07:20] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2024-06-28 10:07:28,835 - INFO - 127.0.0.1 - - [28/Jun/2024 10:07:28] "GET /admin_login HTTP/1.1" 200 -
+2024-06-28 10:07:28,852 - INFO - 127.0.0.1 - - [28/Jun/2024 10:07:28] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-06-28 10:07:38,418 - INFO - 127.0.0.1 - - [28/Jun/2024 10:07:38] "[32mPOST /admin_login HTTP/1.1[0m" 302 -
+2024-06-28 10:07:38,427 - INFO - 127.0.0.1 - - [28/Jun/2024 10:07:38] "GET /admin_dashboard HTTP/1.1" 200 -
+2024-06-28 10:07:38,447 - INFO - 127.0.0.1 - - [28/Jun/2024 10:07:38] "[36mGET /static/admin_dashboard.css HTTP/1.1[0m" 304 -
+2024-06-28 10:09:53,997 - INFO - 127.0.0.1 - - [28/Jun/2024 10:09:53] "GET /admin_dashboard HTTP/1.1" 200 -
+2024-06-28 10:09:54,010 - INFO - 127.0.0.1 - - [28/Jun/2024 10:09:54] "[36mGET /static/admin_dashboard.css HTTP/1.1[0m" 304 -
+2024-06-28 10:09:57,469 - INFO - 127.0.0.1 - - [28/Jun/2024 10:09:57] "GET / HTTP/1.1" 200 -
+2024-06-28 10:09:57,485 - INFO - 127.0.0.1 - - [28/Jun/2024 10:09:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-06-28 10:09:59,070 - INFO - 127.0.0.1 - - [28/Jun/2024 10:09:59] "GET /register HTTP/1.1" 200 -
+2024-06-28 10:09:59,084 - INFO - 127.0.0.1 - - [28/Jun/2024 10:09:59] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-06-28 10:10:13,127 - INFO - 127.0.0.1 - - [28/Jun/2024 10:10:13] "[32mPOST /register HTTP/1.1[0m" 302 -
+2024-06-28 10:10:13,131 - INFO - 127.0.0.1 - - [28/Jun/2024 10:10:13] "GET /login HTTP/1.1" 200 -
+2024-06-28 10:10:13,147 - INFO - 127.0.0.1 - - [28/Jun/2024 10:10:13] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2024-06-28 10:10:21,928 - INFO - 127.0.0.1 - - [28/Jun/2024 10:10:21] "POST /login HTTP/1.1" 200 -
+2024-06-28 10:10:21,942 - INFO - 127.0.0.1 - - [28/Jun/2024 10:10:21] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2024-06-28 10:10:24,289 - INFO - 127.0.0.1 - - [28/Jun/2024 10:10:24] "GET /register HTTP/1.1" 200 -
+2024-06-28 10:10:24,300 - INFO - 127.0.0.1 - - [28/Jun/2024 10:10:24] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-06-28 10:10:38,540 - INFO - 127.0.0.1 - - [28/Jun/2024 10:10:38] "[32mPOST /register HTTP/1.1[0m" 302 -
+2024-06-28 10:10:38,543 - INFO - 127.0.0.1 - - [28/Jun/2024 10:10:38] "GET /login HTTP/1.1" 200 -
+2024-06-28 10:10:38,563 - INFO - 127.0.0.1 - - [28/Jun/2024 10:10:38] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2024-06-28 10:10:48,779 - INFO - 127.0.0.1 - - [28/Jun/2024 10:10:48] "POST /login HTTP/1.1" 200 -
+2024-06-28 10:10:48,791 - INFO - 127.0.0.1 - - [28/Jun/2024 10:10:48] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2024-06-28 10:22:19,608 - INFO -  * Detected change in 'C:\\Users\\ryanm\\Desktop\\diabetes\\app.py', reloading
+2024-06-28 10:22:19,809 - INFO -  * Restarting with stat
+2024-06-28 10:22:21,377 - WARNING -  * Debugger is active!
+2024-06-28 10:22:21,377 - INFO -  * Debugger PIN: 142-167-814
+2024-06-28 10:22:25,036 - INFO - 127.0.0.1 - - [28/Jun/2024 10:22:25] "GET /register HTTP/1.1" 200 -
+2024-06-28 10:22:25,102 - INFO - 127.0.0.1 - - [28/Jun/2024 10:22:25] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-06-28 10:22:45,209 - INFO - 127.0.0.1 - - [28/Jun/2024 10:22:45] "[32mPOST /register HTTP/1.1[0m" 302 -
+2024-06-28 10:22:45,218 - INFO - 127.0.0.1 - - [28/Jun/2024 10:22:45] "GET /login HTTP/1.1" 200 -
+2024-06-28 10:22:45,237 - INFO - 127.0.0.1 - - [28/Jun/2024 10:22:45] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2024-06-28 10:22:53,190 - INFO - 127.0.0.1 - - [28/Jun/2024 10:22:53] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2024-06-28 10:22:53,199 - INFO - 127.0.0.1 - - [28/Jun/2024 10:22:53] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-06-28 10:22:53,203 - INFO - 127.0.0.1 - - [28/Jun/2024 10:22:53] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-06-28 10:22:53,211 - INFO - 127.0.0.1 - - [28/Jun/2024 10:22:53] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-06-28 10:22:53,219 - INFO - 127.0.0.1 - - [28/Jun/2024 10:22:53] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-06-28 10:29:32,728 - INFO -  * Detected change in 'C:\\Users\\ryanm\\Desktop\\diabetes\\app.py', reloading
+2024-06-28 10:29:32,894 - INFO -  * Restarting with stat
+2024-06-28 10:29:34,692 - WARNING -  * Debugger is active!
+2024-06-28 10:29:34,695 - INFO -  * Debugger PIN: 142-167-814
+2024-06-28 10:29:39,635 - INFO - 127.0.0.1 - - [28/Jun/2024 10:29:39] "GET /register HTTP/1.1" 200 -
+2024-06-28 10:29:49,759 - INFO - 127.0.0.1 - - [28/Jun/2024 10:29:49] "[32mPOST /register HTTP/1.1[0m" 302 -
+2024-06-28 10:29:49,765 - INFO - 127.0.0.1 - - [28/Jun/2024 10:29:49] "GET /login HTTP/1.1" 200 -
+2024-06-28 10:29:49,852 - INFO - 127.0.0.1 - - [28/Jun/2024 10:29:49] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2024-06-28 10:30:00,549 - INFO - 127.0.0.1 - - [28/Jun/2024 10:30:00] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2024-06-28 10:30:00,559 - INFO - 127.0.0.1 - - [28/Jun/2024 10:30:00] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-06-28 10:30:00,624 - INFO - 127.0.0.1 - - [28/Jun/2024 10:30:00] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-06-28 10:30:00,639 - INFO - 127.0.0.1 - - [28/Jun/2024 10:30:00] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-06-28 10:30:00,648 - INFO - 127.0.0.1 - - [28/Jun/2024 10:30:00] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-06-28 10:30:13,030 - INFO - 127.0.0.1 - - [28/Jun/2024 10:30:13] "GET /admin_login HTTP/1.1" 200 -
+2024-06-28 10:30:13,045 - INFO - 127.0.0.1 - - [28/Jun/2024 10:30:13] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-06-28 10:30:22,408 - INFO - 127.0.0.1 - - [28/Jun/2024 10:30:22] "[32mPOST /admin_login HTTP/1.1[0m" 302 -
+2024-06-28 10:30:22,439 - INFO - 127.0.0.1 - - [28/Jun/2024 10:30:22] "[35m[1mGET /admin_dashboard HTTP/1.1[0m" 500 -
+2024-06-28 10:30:22,785 - INFO - 127.0.0.1 - - [28/Jun/2024 10:30:22] "[36mGET /admin_dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-06-28 10:30:22,788 - INFO - 127.0.0.1 - - [28/Jun/2024 10:30:22] "[36mGET /admin_dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-06-28 10:30:22,798 - INFO - 127.0.0.1 - - [28/Jun/2024 10:30:22] "[36mGET /admin_dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-06-28 10:30:22,808 - INFO - 127.0.0.1 - - [28/Jun/2024 10:30:22] "[36mGET /admin_dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-06-28 10:46:41,973 - INFO -  * Detected change in 'C:\\Users\\ryanm\\Desktop\\diabetes\\app.py', reloading
+2024-06-28 10:46:42,221 - INFO -  * Restarting with stat
+2024-06-28 10:46:45,253 - WARNING -  * Debugger is active!
+2024-06-28 10:46:45,253 - INFO -  * Debugger PIN: 142-167-814
+2024-06-28 10:46:46,199 - INFO - 127.0.0.1 - - [28/Jun/2024 10:46:46] "GET /admin_login HTTP/1.1" 200 -
+2024-06-28 10:46:55,648 - INFO - 127.0.0.1 - - [28/Jun/2024 10:46:55] "[32mPOST /admin_login HTTP/1.1[0m" 302 -
+2024-06-28 10:46:55,693 - INFO - 127.0.0.1 - - [28/Jun/2024 10:46:55] "[35m[1mGET /admin_dashboard HTTP/1.1[0m" 500 -
+2024-06-28 10:46:56,031 - INFO - 127.0.0.1 - - [28/Jun/2024 10:46:56] "[36mGET /admin_dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-06-28 10:46:56,031 - INFO - 127.0.0.1 - - [28/Jun/2024 10:46:56] "[36mGET /admin_dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-06-28 10:46:56,050 - INFO - 127.0.0.1 - - [28/Jun/2024 10:46:56] "[36mGET /admin_dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-06-28 21:27:48,550 - INFO - 127.0.0.1 - - [28/Jun/2024 21:27:48] "GET / HTTP/1.1" 200 -
+2024-06-28 21:27:48,817 - INFO - 127.0.0.1 - - [28/Jun/2024 21:27:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-06-28 21:27:59,700 - INFO - 127.0.0.1 - - [28/Jun/2024 21:27:59] "GET /prediction HTTP/1.1" 200 -
+2024-06-28 21:27:59,840 - INFO - 127.0.0.1 - - [28/Jun/2024 21:27:59] "[36mGET /static/prediction.css HTTP/1.1[0m" 304 -
+2024-06-28 21:28:07,476 - INFO - 127.0.0.1 - - [28/Jun/2024 21:28:07] "GET /login HTTP/1.1" 200 -
+2024-06-28 21:28:07,509 - INFO - 127.0.0.1 - - [28/Jun/2024 21:28:07] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2024-06-28 21:28:11,164 - INFO - 127.0.0.1 - - [28/Jun/2024 21:28:11] "GET /admin_login HTTP/1.1" 200 -
+2024-06-28 21:28:11,204 - INFO - 127.0.0.1 - - [28/Jun/2024 21:28:11] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-06-28 21:28:13,852 - INFO - 127.0.0.1 - - [28/Jun/2024 21:28:13] "GET /admin_register HTTP/1.1" 200 -
+2024-06-28 21:28:13,874 - INFO - 127.0.0.1 - - [28/Jun/2024 21:28:13] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-06-28 21:28:33,397 - INFO - 127.0.0.1 - - [28/Jun/2024 21:28:33] "GET /admin_login HTTP/1.1" 200 -
+2024-06-28 21:28:33,417 - INFO - 127.0.0.1 - - [28/Jun/2024 21:28:33] "[36mGET /static/register.css HTTP/1.1[0m" 304 -

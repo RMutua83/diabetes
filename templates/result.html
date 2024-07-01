@@ -6,13 +6,22 @@
 </head>
 
 <body>
+    <nav>
+        <h1>Diabetes Prediction Model</h1>
+        <ul>
+            <li><a href="{{ url_for('home') }}">Home</a></li>
+            <li><a href="{{ url_for('login') }}">Logout</a></li>
+        
+        </ul>
+    </nav>
+    
     <h1>Here are you results</h1>
 
     <div>
         {% if result %}
         <p>Your diabetes test result is: <strong>{{ result }}</strong></p>
         <form action="/report" method="get">
-            <input type="submit" value="View Report">
+            <li><a href="{{ url_for('prediction') }}">Do another test</a></li>
         </form>
         {% else %}
         <p>No result available.</p>

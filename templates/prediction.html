@@ -4,6 +4,14 @@
     <link rel="stylesheet" href="/static/prediction.css">
 </head>
 <body>
+    <nav>
+        <h1>Diabetes Prediction Model</h1>
+        <ul>
+            <li><a href="{{ url_for('home') }}">Home</a></li>
+            <li><a href="{{ url_for('login') }}">Logout</a></li>
+        
+        </ul>
+    </nav>
     
     <h1>Prediction Page</h1>
 
@@ -53,7 +61,7 @@
 
         <div class="button-container">
             <input type="submit" value="Predict">
-            <a href="{{ url_for('report') }}">Report</a>
+    
         </div>
     </form>
 

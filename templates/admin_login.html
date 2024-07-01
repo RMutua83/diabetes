@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="/static/register.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Health Administrator</h1>
+            <ul>
+                <li><a href="{{ url_for('home') }}">Home</a></li>
+                <li><a href="{{ url_for('admin_login') }}">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="form-container">
+        <h1>Sign in</h1>
+       
+        <form action="/admin_login" method="POST">
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            <input type="submit" value="Login">
+        </form>
+        <a class="register-link" href="{{ url_for('admin_register') }}">Don't have an account? Register</a>
+    </div>
+</body>
+</html>

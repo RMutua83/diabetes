@@ -7,10 +7,10 @@
 <body>
     <header>
         <nav>
-            <h1>Diabetes Prediction Model</h1>
+            <h1>Health Administrator</h1>
             <ul>
                 <li><a href="{{ url_for('home') }}">Home</a></li>
-                <li><a href="{{ url_for('login') }}">Login</a></li>
+                <li><a href="{{ url_for('admin_login') }}">Login</a></li>
             
             </ul>
         </nav>
@@ -19,15 +19,14 @@
     <div class="form-container register">
         <h1>Register</h1>
         
-        <form action="/register" method="POST">
-            <input type="number" id="id" name="id" placeholder="Enter your ID" required>
+        <form action="/admin_register" method="POST">
             <input type="text" id="name" name="name" placeholder="Enter your name" required>
-            <!--<input type="email" id="email" name="email" placeholder="Enter your email" required>--->
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
             <input type="password" id="password" name="password" placeholder="Enter your password" required>
     
             <input type="submit" value="Register">
         </form>
-        <a href="{{ url_for('login') }}">Login</a>
+        <a href="{{ url_for('admin_login') }}">Login</a>       
     </div>
     <footer>Copyright by Ryan&Scott Foundation</footer>
 </body>

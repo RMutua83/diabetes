@@ -14,14 +14,51 @@ body {
     flex-direction: column;
     min-height: 100vh;
     position: relative;
-    padding-bottom: 100px; 
+    padding-top: 100px; /* To ensure content doesn't overlap with navbar */
+    padding-bottom: 100px; /* To ensure footer doesn't overlap content */
 }
-.page-title {
-    font-size: 2em;
-    font-weight: 600;
-    margin-bottom: 20px;
-    text-align: center;
-    color:  black;
+
+header {
+    width: 100%;
+    background-color: #fff;
+    padding: 20px 0; /* Increased padding for a bigger navbar */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header nav h1 {
+    font-size: 28px; /* Increased font size */
+    margin-left: 20px; /* Adjust as needed */
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-right: 20px; /* Increased margin */
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    font-size: 18px; /* Increased font size */
+}
+
+header nav ul li a:hover {
+    color: #512da8;
 }
 
 .form-container {
