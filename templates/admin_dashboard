@@ -23,7 +23,7 @@
                 <tr>
                     <th>ID</th>
                     <th>Name</th>
-                    <th>Action</th>
+                    
                 </tr>
             </thead>
             <tbody>
@@ -31,12 +31,8 @@
                 <tr>
                     <td>{{ user[0] }}</td>
                     <td>{{ user[1] }}</td>
-                    <td>{{ user[2] }}</td>
-                    <td>
-                        <form action="/delete_user/{{ user[0] }}" method="post" onsubmit="return confirm('Are you sure you want to delete this user?');">
-                            <button type="submit">Delete</button>
-                        </form>
-                    </td>
+                    
+                   
                 </tr>
                 {% endfor %}
             </tbody>

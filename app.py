@@ -125,31 +125,8 @@ def admin_dashboard():
         return redirect(url_for('admin_login'))
 
     users = fetch_all_users()
-    return render_template(admin_dashboard, users=users)
+    return render_template('admin_dashboard', users=users)
 
-# Route to delete a user
-@app.route('/delete_user/<int:user_id>', methods=['POST'])
-def delete_user(user_id):
-    if 'admin_id' not in session:
-        flash('Please log in first as admin.', 'danger')
-        return redirect(url_for('admin_login'))
-
-    connection = get_db_connection()
-    if connection:
-        cursor = connection.cursor()
-        try:
-            cursor.execute("DELETE FROM users WHERE id = %s", (user_id,))
-            connection.commit()
-            flash(f'User with ID {user_id} deleted successfully.', 'success')
-        except mysql.connector.Error as e:
-            flash(f"Error deleting user from MySQL: {e}", 'danger')
-        finally:
-            cursor.close()
-            connection.close()
-    else:
-        flash('Database connection failed.', 'danger')
-
-    return redirect(url_for('admin_dashboard'))
 
 # Route for health administrator registration
 @app.route('/admin_register', methods=['GET', 'POST'])

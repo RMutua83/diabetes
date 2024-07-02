@@ -783,3 +783,281 @@
 2024-06-28 21:28:13,874 - INFO - 127.0.0.1 - - [28/Jun/2024 21:28:13] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
 2024-06-28 21:28:33,397 - INFO - 127.0.0.1 - - [28/Jun/2024 21:28:33] "GET /admin_login HTTP/1.1" 200 -
 2024-06-28 21:28:33,417 - INFO - 127.0.0.1 - - [28/Jun/2024 21:28:33] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-07-01 11:00:11,353 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-01 11:00:11,353 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-01 11:00:11,359 - INFO -  * Restarting with stat
+2024-07-01 11:00:12,469 - WARNING -  * Debugger is active!
+2024-07-01 11:00:12,485 - INFO -  * Debugger PIN: 142-167-814
+2024-07-01 11:01:23,291 - INFO - 127.0.0.1 - - [01/Jul/2024 11:01:23] "GET / HTTP/1.1" 200 -
+2024-07-01 11:01:23,380 - INFO - 127.0.0.1 - - [01/Jul/2024 11:01:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-01 11:01:24,501 - INFO - 127.0.0.1 - - [01/Jul/2024 11:01:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-07-01 11:01:33,030 - INFO - 127.0.0.1 - - [01/Jul/2024 11:01:33] "GET /register HTTP/1.1" 200 -
+2024-07-01 11:01:33,067 - INFO - 127.0.0.1 - - [01/Jul/2024 11:01:33] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-07-01 11:01:58,985 - INFO - 127.0.0.1 - - [01/Jul/2024 11:01:58] "[32mPOST /register HTTP/1.1[0m" 302 -
+2024-07-01 11:01:58,997 - INFO - 127.0.0.1 - - [01/Jul/2024 11:01:58] "GET /login HTTP/1.1" 200 -
+2024-07-01 11:01:59,022 - INFO - 127.0.0.1 - - [01/Jul/2024 11:01:59] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2024-07-01 11:02:07,628 - INFO - 127.0.0.1 - - [01/Jul/2024 11:02:07] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-07-01 11:02:07,645 - INFO - 127.0.0.1 - - [01/Jul/2024 11:02:07] "GET /prediction HTTP/1.1" 200 -
+2024-07-01 11:02:07,712 - INFO - 127.0.0.1 - - [01/Jul/2024 11:02:07] "[36mGET /static/prediction.css HTTP/1.1[0m" 304 -
+2024-07-01 11:02:22,380 - INFO - 127.0.0.1 - - [01/Jul/2024 11:02:22] "POST /prediction HTTP/1.1" 200 -
+2024-07-01 11:02:22,406 - INFO - 127.0.0.1 - - [01/Jul/2024 11:02:22] "[36mGET /static/result.css HTTP/1.1[0m" 304 -
+2024-07-01 11:02:25,274 - INFO - 127.0.0.1 - - [01/Jul/2024 11:02:25] "GET /prediction HTTP/1.1" 200 -
+2024-07-01 11:02:25,287 - INFO - 127.0.0.1 - - [01/Jul/2024 11:02:25] "[36mGET /static/prediction.css HTTP/1.1[0m" 304 -
+2024-07-01 11:02:27,117 - INFO - 127.0.0.1 - - [01/Jul/2024 11:02:27] "GET /login HTTP/1.1" 200 -
+2024-07-01 11:02:27,133 - INFO - 127.0.0.1 - - [01/Jul/2024 11:02:27] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2024-07-01 11:02:29,412 - INFO - 127.0.0.1 - - [01/Jul/2024 11:02:29] "GET /admin_login HTTP/1.1" 200 -
+2024-07-01 11:02:29,431 - INFO - 127.0.0.1 - - [01/Jul/2024 11:02:29] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-07-01 11:02:32,573 - INFO - 127.0.0.1 - - [01/Jul/2024 11:02:32] "GET /admin_register HTTP/1.1" 200 -
+2024-07-01 11:02:32,585 - INFO - 127.0.0.1 - - [01/Jul/2024 11:02:32] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-07-01 11:02:44,909 - INFO - 127.0.0.1 - - [01/Jul/2024 11:02:44] "[32mPOST /admin_register HTTP/1.1[0m" 302 -
+2024-07-01 11:02:44,913 - INFO - 127.0.0.1 - - [01/Jul/2024 11:02:44] "GET /admin_login HTTP/1.1" 200 -
+2024-07-01 11:02:44,928 - INFO - 127.0.0.1 - - [01/Jul/2024 11:02:44] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-07-01 11:02:51,911 - INFO - 127.0.0.1 - - [01/Jul/2024 11:02:51] "[32mPOST /admin_login HTTP/1.1[0m" 302 -
+2024-07-01 11:02:51,936 - INFO - 127.0.0.1 - - [01/Jul/2024 11:02:51] "[35m[1mGET /admin_dashboard HTTP/1.1[0m" 500 -
+2024-07-01 11:02:51,976 - INFO - 127.0.0.1 - - [01/Jul/2024 11:02:51] "[36mGET /admin_dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-07-01 11:02:52,079 - INFO - 127.0.0.1 - - [01/Jul/2024 11:02:52] "[36mGET /admin_dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-07-01 11:02:52,102 - INFO - 127.0.0.1 - - [01/Jul/2024 11:02:52] "[36mGET /admin_dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-07-01 11:05:19,308 - INFO -  * Detected change in 'C:\\Users\\ryanm\\Desktop\\diabetes\\app.py', reloading
+2024-07-01 11:05:19,508 - INFO -  * Restarting with stat
+2024-07-01 11:05:20,857 - WARNING -  * Debugger is active!
+2024-07-01 11:05:20,857 - INFO -  * Debugger PIN: 142-167-814
+2024-07-01 11:05:21,862 - INFO - 127.0.0.1 - - [01/Jul/2024 11:05:21] "GET /admin_dashboard HTTP/1.1" 200 -
+2024-07-01 11:05:21,940 - INFO - 127.0.0.1 - - [01/Jul/2024 11:05:21] "[36mGET /static/admin_dashboard.css HTTP/1.1[0m" 304 -
+2024-07-01 11:05:50,928 - INFO - 127.0.0.1 - - [01/Jul/2024 11:05:50] "[32mPOST /delete_user/151373 HTTP/1.1[0m" 302 -
+2024-07-01 11:05:50,945 - INFO - 127.0.0.1 - - [01/Jul/2024 11:05:50] "GET /admin_dashboard HTTP/1.1" 200 -
+2024-07-01 11:05:50,957 - INFO - 127.0.0.1 - - [01/Jul/2024 11:05:50] "[36mGET /static/admin_dashboard.css HTTP/1.1[0m" 304 -
+2024-07-01 11:05:56,215 - INFO - 127.0.0.1 - - [01/Jul/2024 11:05:56] "GET /admin_dashboard HTTP/1.1" 200 -
+2024-07-01 11:05:56,232 - INFO - 127.0.0.1 - - [01/Jul/2024 11:05:56] "[36mGET /static/admin_dashboard.css HTTP/1.1[0m" 304 -
+2024-07-01 11:05:58,785 - INFO - 127.0.0.1 - - [01/Jul/2024 11:05:58] "GET /admin_dashboard HTTP/1.1" 200 -
+2024-07-01 11:05:58,798 - INFO - 127.0.0.1 - - [01/Jul/2024 11:05:58] "[36mGET /static/admin_dashboard.css HTTP/1.1[0m" 304 -
+2024-07-01 11:06:07,937 - INFO - 127.0.0.1 - - [01/Jul/2024 11:06:07] "[32mPOST /delete_user/151373 HTTP/1.1[0m" 302 -
+2024-07-01 11:06:07,942 - INFO - 127.0.0.1 - - [01/Jul/2024 11:06:07] "GET /admin_dashboard HTTP/1.1" 200 -
+2024-07-01 11:06:07,959 - INFO - 127.0.0.1 - - [01/Jul/2024 11:06:07] "[36mGET /static/admin_dashboard.css HTTP/1.1[0m" 304 -
+2024-07-01 11:06:12,208 - INFO - 127.0.0.1 - - [01/Jul/2024 11:06:12] "GET /report HTTP/1.1" 200 -
+2024-07-01 11:06:12,230 - INFO - 127.0.0.1 - - [01/Jul/2024 11:06:12] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-07-01 11:06:30,812 - INFO - 127.0.0.1 - - [01/Jul/2024 11:06:30] "GET /admin_dashboard HTTP/1.1" 200 -
+2024-07-01 11:06:30,827 - INFO - 127.0.0.1 - - [01/Jul/2024 11:06:30] "[36mGET /static/admin_dashboard.css HTTP/1.1[0m" 304 -
+2024-07-01 11:06:34,724 - INFO - 127.0.0.1 - - [01/Jul/2024 11:06:34] "GET / HTTP/1.1" 200 -
+2024-07-01 11:06:34,743 - INFO - 127.0.0.1 - - [01/Jul/2024 11:06:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-01 11:06:38,708 - INFO - 127.0.0.1 - - [01/Jul/2024 11:06:38] "GET /register HTTP/1.1" 200 -
+2024-07-01 11:06:38,726 - INFO - 127.0.0.1 - - [01/Jul/2024 11:06:38] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-07-01 11:06:40,681 - INFO - 127.0.0.1 - - [01/Jul/2024 11:06:40] "GET /login HTTP/1.1" 200 -
+2024-07-01 11:06:40,696 - INFO - 127.0.0.1 - - [01/Jul/2024 11:06:40] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2024-07-01 11:06:49,730 - INFO - 127.0.0.1 - - [01/Jul/2024 11:06:49] "POST /login HTTP/1.1" 200 -
+2024-07-01 11:06:49,743 - INFO - 127.0.0.1 - - [01/Jul/2024 11:06:49] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2024-07-01 11:07:15,905 - INFO - 127.0.0.1 - - [01/Jul/2024 11:07:15] "GET /admin_login HTTP/1.1" 200 -
+2024-07-01 11:07:15,919 - INFO - 127.0.0.1 - - [01/Jul/2024 11:07:15] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-07-01 11:07:29,203 - INFO - 127.0.0.1 - - [01/Jul/2024 11:07:29] "POST /admin_login HTTP/1.1" 200 -
+2024-07-01 11:07:29,217 - INFO - 127.0.0.1 - - [01/Jul/2024 11:07:29] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-07-01 11:07:37,455 - INFO - 127.0.0.1 - - [01/Jul/2024 11:07:37] "POST /admin_login HTTP/1.1" 200 -
+2024-07-01 11:07:37,519 - INFO - 127.0.0.1 - - [01/Jul/2024 11:07:37] "POST /admin_login HTTP/1.1" 200 -
+2024-07-01 11:07:37,530 - INFO - 127.0.0.1 - - [01/Jul/2024 11:07:37] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-07-01 11:07:47,640 - INFO - 127.0.0.1 - - [01/Jul/2024 11:07:47] "[32mPOST /admin_login HTTP/1.1[0m" 302 -
+2024-07-01 11:07:47,695 - INFO - 127.0.0.1 - - [01/Jul/2024 11:07:47] "[32mPOST /admin_login HTTP/1.1[0m" 302 -
+2024-07-01 11:07:47,700 - INFO - 127.0.0.1 - - [01/Jul/2024 11:07:47] "GET /admin_dashboard HTTP/1.1" 200 -
+2024-07-01 11:07:47,705 - INFO - 127.0.0.1 - - [01/Jul/2024 11:07:47] "[36mGET /static/admin_dashboard.css HTTP/1.1[0m" 304 -
+2024-07-01 11:08:18,001 - INFO - 127.0.0.1 - - [01/Jul/2024 11:08:18] "GET /admin_login HTTP/1.1" 200 -
+2024-07-01 11:08:18,021 - INFO - 127.0.0.1 - - [01/Jul/2024 11:08:18] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-07-01 11:08:20,880 - INFO - 127.0.0.1 - - [01/Jul/2024 11:08:20] "GET / HTTP/1.1" 200 -
+2024-07-01 11:08:20,897 - INFO - 127.0.0.1 - - [01/Jul/2024 11:08:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-01 11:08:22,909 - INFO - 127.0.0.1 - - [01/Jul/2024 11:08:22] "GET /register HTTP/1.1" 200 -
+2024-07-01 11:08:22,925 - INFO - 127.0.0.1 - - [01/Jul/2024 11:08:22] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-07-01 11:08:37,772 - INFO - 127.0.0.1 - - [01/Jul/2024 11:08:37] "[32mPOST /register HTTP/1.1[0m" 302 -
+2024-07-01 11:08:37,776 - INFO - 127.0.0.1 - - [01/Jul/2024 11:08:37] "GET /login HTTP/1.1" 200 -
+2024-07-01 11:08:37,793 - INFO - 127.0.0.1 - - [01/Jul/2024 11:08:37] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2024-07-01 11:08:46,902 - INFO - 127.0.0.1 - - [01/Jul/2024 11:08:46] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-07-01 11:08:46,906 - INFO - 127.0.0.1 - - [01/Jul/2024 11:08:46] "GET /prediction HTTP/1.1" 200 -
+2024-07-01 11:08:46,925 - INFO - 127.0.0.1 - - [01/Jul/2024 11:08:46] "[36mGET /static/prediction.css HTTP/1.1[0m" 304 -
+2024-07-01 11:08:59,666 - INFO - 127.0.0.1 - - [01/Jul/2024 11:08:59] "POST /prediction HTTP/1.1" 200 -
+2024-07-01 11:08:59,682 - INFO - 127.0.0.1 - - [01/Jul/2024 11:08:59] "[36mGET /static/result.css HTTP/1.1[0m" 304 -
+2024-07-01 11:09:04,127 - INFO - 127.0.0.1 - - [01/Jul/2024 11:09:04] "GET / HTTP/1.1" 200 -
+2024-07-01 11:09:04,143 - INFO - 127.0.0.1 - - [01/Jul/2024 11:09:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-01 11:09:06,843 - INFO - 127.0.0.1 - - [01/Jul/2024 11:09:06] "GET /register HTTP/1.1" 200 -
+2024-07-01 11:09:06,859 - INFO - 127.0.0.1 - - [01/Jul/2024 11:09:06] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-07-01 11:09:11,508 - INFO - 127.0.0.1 - - [01/Jul/2024 11:09:11] "GET /login HTTP/1.1" 200 -
+2024-07-01 11:09:11,524 - INFO - 127.0.0.1 - - [01/Jul/2024 11:09:11] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2024-07-01 11:09:12,688 - INFO - 127.0.0.1 - - [01/Jul/2024 11:09:12] "GET /admin_login HTTP/1.1" 200 -
+2024-07-01 11:09:12,705 - INFO - 127.0.0.1 - - [01/Jul/2024 11:09:12] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-07-01 11:09:21,107 - INFO - 127.0.0.1 - - [01/Jul/2024 11:09:21] "[32mPOST /admin_login HTTP/1.1[0m" 302 -
+2024-07-01 11:09:21,112 - INFO - 127.0.0.1 - - [01/Jul/2024 11:09:21] "GET /admin_dashboard HTTP/1.1" 200 -
+2024-07-01 11:09:21,127 - INFO - 127.0.0.1 - - [01/Jul/2024 11:09:21] "[36mGET /static/admin_dashboard.css HTTP/1.1[0m" 304 -
+2024-07-01 11:10:03,845 - INFO - 127.0.0.1 - - [01/Jul/2024 11:10:03] "[32mPOST /delete_user/151373 HTTP/1.1[0m" 302 -
+2024-07-01 11:10:03,848 - INFO - 127.0.0.1 - - [01/Jul/2024 11:10:03] "GET /admin_dashboard HTTP/1.1" 200 -
+2024-07-01 11:10:03,862 - INFO - 127.0.0.1 - - [01/Jul/2024 11:10:03] "[36mGET /static/admin_dashboard.css HTTP/1.1[0m" 304 -
+2024-07-01 11:11:14,788 - INFO - 127.0.0.1 - - [01/Jul/2024 11:11:14] "[32mPOST /delete_user/150145 HTTP/1.1[0m" 302 -
+2024-07-01 11:11:14,794 - INFO - 127.0.0.1 - - [01/Jul/2024 11:11:14] "GET /admin_dashboard HTTP/1.1" 200 -
+2024-07-01 11:11:14,808 - INFO - 127.0.0.1 - - [01/Jul/2024 11:11:14] "[36mGET /static/admin_dashboard.css HTTP/1.1[0m" 304 -
+2024-07-01 11:11:17,438 - INFO - 127.0.0.1 - - [01/Jul/2024 11:11:17] "GET / HTTP/1.1" 200 -
+2024-07-01 11:11:17,455 - INFO - 127.0.0.1 - - [01/Jul/2024 11:11:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-01 11:11:19,190 - INFO - 127.0.0.1 - - [01/Jul/2024 11:11:19] "GET /register HTTP/1.1" 200 -
+2024-07-01 11:11:19,209 - INFO - 127.0.0.1 - - [01/Jul/2024 11:11:19] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-07-01 11:11:20,722 - INFO - 127.0.0.1 - - [01/Jul/2024 11:11:20] "GET /login HTTP/1.1" 200 -
+2024-07-01 11:11:20,739 - INFO - 127.0.0.1 - - [01/Jul/2024 11:11:20] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2024-07-01 11:11:28,208 - INFO - 127.0.0.1 - - [01/Jul/2024 11:11:28] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-07-01 11:11:28,211 - INFO - 127.0.0.1 - - [01/Jul/2024 11:11:28] "GET /prediction HTTP/1.1" 200 -
+2024-07-01 11:11:28,232 - INFO - 127.0.0.1 - - [01/Jul/2024 11:11:28] "[36mGET /static/prediction.css HTTP/1.1[0m" 304 -
+2024-07-01 11:12:07,369 - INFO - 127.0.0.1 - - [01/Jul/2024 11:12:07] "GET /login HTTP/1.1" 200 -
+2024-07-01 11:12:07,387 - INFO - 127.0.0.1 - - [01/Jul/2024 11:12:07] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2024-07-01 12:00:41,238 - INFO -  * Detected change in 'C:\\Users\\ryanm\\Desktop\\diabetes\\app.py', reloading
+2024-07-01 12:00:41,650 - INFO -  * Restarting with stat
+2024-07-01 12:00:44,059 - WARNING -  * Debugger is active!
+2024-07-01 12:00:44,062 - INFO -  * Debugger PIN: 142-167-814
+2024-07-01 12:00:48,976 - INFO - 127.0.0.1 - - [01/Jul/2024 12:00:48] "GET /admin_login HTTP/1.1" 200 -
+2024-07-01 12:00:49,047 - INFO - 127.0.0.1 - - [01/Jul/2024 12:00:49] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-07-01 12:00:57,899 - INFO - 127.0.0.1 - - [01/Jul/2024 12:00:57] "[32mPOST /admin_login HTTP/1.1[0m" 302 -
+2024-07-01 12:00:57,918 - INFO - 127.0.0.1 - - [01/Jul/2024 12:00:57] "GET /admin_dashboard HTTP/1.1" 200 -
+2024-07-01 12:00:57,934 - INFO - 127.0.0.1 - - [01/Jul/2024 12:00:57] "[36mGET /static/admin_dashboard.css HTTP/1.1[0m" 304 -
+2024-07-01 12:01:05,859 - INFO - 127.0.0.1 - - [01/Jul/2024 12:01:05] "[32mPOST /delete_user/151373 HTTP/1.1[0m" 302 -
+2024-07-01 12:01:05,867 - INFO - 127.0.0.1 - - [01/Jul/2024 12:01:05] "GET /admin_dashboard HTTP/1.1" 200 -
+2024-07-01 12:01:05,880 - INFO - 127.0.0.1 - - [01/Jul/2024 12:01:05] "[36mGET /static/admin_dashboard.css HTTP/1.1[0m" 304 -
+2024-07-01 20:44:22,443 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-01 20:44:22,443 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-01 20:44:22,443 - INFO -  * Restarting with stat
+2024-07-01 20:44:23,886 - WARNING -  * Debugger is active!
+2024-07-01 20:44:23,903 - INFO -  * Debugger PIN: 142-167-814
+2024-07-01 20:44:27,857 - INFO - 127.0.0.1 - - [01/Jul/2024 20:44:27] "GET / HTTP/1.1" 200 -
+2024-07-01 20:44:27,971 - INFO - 127.0.0.1 - - [01/Jul/2024 20:44:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-01 20:44:29,190 - INFO - 127.0.0.1 - - [01/Jul/2024 20:44:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-07-01 20:44:36,286 - INFO - 127.0.0.1 - - [01/Jul/2024 20:44:36] "GET /register HTTP/1.1" 200 -
+2024-07-01 20:44:36,327 - INFO - 127.0.0.1 - - [01/Jul/2024 20:44:36] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-07-01 20:44:41,370 - INFO - 127.0.0.1 - - [01/Jul/2024 20:44:41] "GET /login HTTP/1.1" 200 -
+2024-07-01 20:44:41,400 - INFO - 127.0.0.1 - - [01/Jul/2024 20:44:41] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2024-07-01 20:45:04,150 - INFO - 127.0.0.1 - - [01/Jul/2024 20:45:04] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-07-01 20:45:04,175 - INFO - 127.0.0.1 - - [01/Jul/2024 20:45:04] "GET /prediction HTTP/1.1" 200 -
+2024-07-01 20:45:04,209 - INFO - 127.0.0.1 - - [01/Jul/2024 20:45:04] "[36mGET /static/prediction.css HTTP/1.1[0m" 304 -
+2024-07-01 20:45:13,008 - INFO - 127.0.0.1 - - [01/Jul/2024 20:45:13] "GET /login HTTP/1.1" 200 -
+2024-07-01 20:45:13,025 - INFO - 127.0.0.1 - - [01/Jul/2024 20:45:13] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2024-07-01 20:45:14,570 - INFO - 127.0.0.1 - - [01/Jul/2024 20:45:14] "GET /admin_login HTTP/1.1" 200 -
+2024-07-01 20:45:14,593 - INFO - 127.0.0.1 - - [01/Jul/2024 20:45:14] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-07-01 20:45:22,607 - INFO - 127.0.0.1 - - [01/Jul/2024 20:45:22] "POST /admin_login HTTP/1.1" 200 -
+2024-07-01 20:45:22,626 - INFO - 127.0.0.1 - - [01/Jul/2024 20:45:22] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-07-01 20:45:32,928 - INFO - 127.0.0.1 - - [01/Jul/2024 20:45:32] "[32mPOST /admin_login HTTP/1.1[0m" 302 -
+2024-07-01 20:45:32,946 - INFO - 127.0.0.1 - - [01/Jul/2024 20:45:32] "GET /admin_dashboard HTTP/1.1" 200 -
+2024-07-01 20:45:32,972 - INFO - 127.0.0.1 - - [01/Jul/2024 20:45:32] "[36mGET /static/admin_dashboard.css HTTP/1.1[0m" 304 -
+2024-07-01 20:46:08,904 - INFO - 127.0.0.1 - - [01/Jul/2024 20:46:08] "[32mPOST /delete_user/151373 HTTP/1.1[0m" 302 -
+2024-07-01 20:46:08,914 - INFO - 127.0.0.1 - - [01/Jul/2024 20:46:08] "GET /admin_dashboard HTTP/1.1" 200 -
+2024-07-01 20:46:08,928 - INFO - 127.0.0.1 - - [01/Jul/2024 20:46:08] "[36mGET /static/admin_dashboard.css HTTP/1.1[0m" 304 -
+2024-07-01 20:46:11,641 - INFO - 127.0.0.1 - - [01/Jul/2024 20:46:11] "GET /admin_dashboard HTTP/1.1" 200 -
+2024-07-01 20:46:11,654 - INFO - 127.0.0.1 - - [01/Jul/2024 20:46:11] "[36mGET /static/admin_dashboard.css HTTP/1.1[0m" 304 -
+2024-07-01 20:46:14,208 - INFO - 127.0.0.1 - - [01/Jul/2024 20:46:14] "GET /report HTTP/1.1" 200 -
+2024-07-01 20:46:14,236 - INFO - 127.0.0.1 - - [01/Jul/2024 20:46:14] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-07-01 20:48:27,932 - INFO - 127.0.0.1 - - [01/Jul/2024 20:48:27] "GET /admin_dashboard HTTP/1.1" 200 -
+2024-07-01 20:48:27,954 - INFO - 127.0.0.1 - - [01/Jul/2024 20:48:27] "[36mGET /static/admin_dashboard.css HTTP/1.1[0m" 304 -
+2024-07-01 20:48:56,330 - INFO - 127.0.0.1 - - [01/Jul/2024 20:48:56] "GET /admin_login HTTP/1.1" 200 -
+2024-07-01 20:48:56,349 - INFO - 127.0.0.1 - - [01/Jul/2024 20:48:56] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-07-01 20:49:05,116 - INFO - 127.0.0.1 - - [01/Jul/2024 20:49:05] "GET / HTTP/1.1" 200 -
+2024-07-01 20:49:05,136 - INFO - 127.0.0.1 - - [01/Jul/2024 20:49:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-01 20:49:06,892 - INFO - 127.0.0.1 - - [01/Jul/2024 20:49:06] "GET /register HTTP/1.1" 200 -
+2024-07-01 20:49:06,909 - INFO - 127.0.0.1 - - [01/Jul/2024 20:49:06] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-07-01 20:50:13,588 - INFO - 127.0.0.1 - - [01/Jul/2024 20:50:13] "[32mPOST /register HTTP/1.1[0m" 302 -
+2024-07-01 20:50:13,593 - INFO - 127.0.0.1 - - [01/Jul/2024 20:50:13] "GET /login HTTP/1.1" 200 -
+2024-07-01 20:50:13,614 - INFO - 127.0.0.1 - - [01/Jul/2024 20:50:13] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2024-07-01 20:50:29,547 - INFO - 127.0.0.1 - - [01/Jul/2024 20:50:29] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-07-01 20:50:29,563 - INFO - 127.0.0.1 - - [01/Jul/2024 20:50:29] "GET /prediction HTTP/1.1" 200 -
+2024-07-01 20:50:29,574 - INFO - 127.0.0.1 - - [01/Jul/2024 20:50:29] "[36mGET /static/prediction.css HTTP/1.1[0m" 304 -
+2024-07-01 20:52:18,446 - INFO - 127.0.0.1 - - [01/Jul/2024 20:52:18] "POST /prediction HTTP/1.1" 200 -
+2024-07-01 20:52:18,472 - INFO - 127.0.0.1 - - [01/Jul/2024 20:52:18] "[36mGET /static/result.css HTTP/1.1[0m" 304 -
+2024-07-01 20:52:25,586 - INFO - 127.0.0.1 - - [01/Jul/2024 20:52:25] "GET /login HTTP/1.1" 200 -
+2024-07-01 20:52:25,604 - INFO - 127.0.0.1 - - [01/Jul/2024 20:52:25] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2024-07-01 20:52:52,521 - INFO - 127.0.0.1 - - [01/Jul/2024 20:52:52] "GET /admin_login HTTP/1.1" 200 -
+2024-07-01 20:52:52,537 - INFO - 127.0.0.1 - - [01/Jul/2024 20:52:52] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-07-01 20:53:02,177 - INFO - 127.0.0.1 - - [01/Jul/2024 20:53:02] "[32mPOST /admin_login HTTP/1.1[0m" 302 -
+2024-07-01 20:53:02,189 - INFO - 127.0.0.1 - - [01/Jul/2024 20:53:02] "GET /admin_dashboard HTTP/1.1" 200 -
+2024-07-01 20:53:02,209 - INFO - 127.0.0.1 - - [01/Jul/2024 20:53:02] "[36mGET /static/admin_dashboard.css HTTP/1.1[0m" 304 -
+2024-07-01 20:58:54,953 - INFO -  * Detected change in 'C:\\Users\\ryanm\\Desktop\\diabetes\\app.py', reloading
+2024-07-01 20:58:55,163 - INFO -  * Restarting with stat
+2024-07-01 20:58:56,603 - WARNING -  * Debugger is active!
+2024-07-01 20:58:56,603 - INFO -  * Debugger PIN: 142-167-814
+2024-07-01 20:59:09,875 - INFO - 127.0.0.1 - - [01/Jul/2024 20:59:09] "GET /admin_dashboard HTTP/1.1" 200 -
+2024-07-01 20:59:09,936 - INFO - 127.0.0.1 - - [01/Jul/2024 20:59:09] "[36mGET /static/admin_dashboard.css HTTP/1.1[0m" 304 -
+2024-07-01 20:59:16,404 - ERROR - Error deleting user from MySQL: 1451 (23000): Cannot delete or update a parent row: a foreign key constraint fails (`diabetespred`.`predictions`, CONSTRAINT `predictions_ibfk_1` FOREIGN KEY (`patient_id`) REFERENCES `users` (`id`))
+2024-07-01 20:59:16,411 - INFO - 127.0.0.1 - - [01/Jul/2024 20:59:16] "[32mPOST /delete_user/151373 HTTP/1.1[0m" 302 -
+2024-07-01 20:59:16,421 - INFO - 127.0.0.1 - - [01/Jul/2024 20:59:16] "GET /admin_dashboard HTTP/1.1" 200 -
+2024-07-01 20:59:16,436 - INFO - 127.0.0.1 - - [01/Jul/2024 20:59:16] "[36mGET /static/admin_dashboard.css HTTP/1.1[0m" 304 -
+2024-07-01 20:59:23,324 - ERROR - Error deleting user from MySQL: 1451 (23000): Cannot delete or update a parent row: a foreign key constraint fails (`diabetespred`.`predictions`, CONSTRAINT `predictions_ibfk_1` FOREIGN KEY (`patient_id`) REFERENCES `users` (`id`))
+2024-07-01 20:59:23,325 - INFO - 127.0.0.1 - - [01/Jul/2024 20:59:23] "[32mPOST /delete_user/12345 HTTP/1.1[0m" 302 -
+2024-07-01 20:59:23,333 - INFO - 127.0.0.1 - - [01/Jul/2024 20:59:23] "GET /admin_dashboard HTTP/1.1" 200 -
+2024-07-01 20:59:23,353 - INFO - 127.0.0.1 - - [01/Jul/2024 20:59:23] "[36mGET /static/admin_dashboard.css HTTP/1.1[0m" 304 -
+2024-07-01 21:02:29,266 - INFO -  * Detected change in 'C:\\Users\\ryanm\\Desktop\\diabetes\\app.py', reloading
+2024-07-01 21:02:29,446 - INFO -  * Restarting with stat
+2024-07-01 21:02:31,066 - WARNING -  * Debugger is active!
+2024-07-01 21:02:31,067 - INFO -  * Debugger PIN: 142-167-814
+2024-07-01 21:54:24,701 - INFO - 127.0.0.1 - - [01/Jul/2024 21:54:24] "GET /admin_dashboard HTTP/1.1" 200 -
+2024-07-01 21:54:24,763 - INFO - 127.0.0.1 - - [01/Jul/2024 21:54:24] "[36mGET /static/admin_dashboard.css HTTP/1.1[0m" 304 -
+2024-07-01 21:54:28,620 - ERROR - Error deleting user from MySQL: 1451 (23000): Cannot delete or update a parent row: a foreign key constraint fails (`diabetespred`.`predictions`, CONSTRAINT `predictions_ibfk_1` FOREIGN KEY (`patient_id`) REFERENCES `users` (`id`))
+2024-07-01 21:54:28,620 - INFO - 127.0.0.1 - - [01/Jul/2024 21:54:28] "[32mPOST /delete_user/151707 HTTP/1.1[0m" 302 -
+2024-07-01 21:54:28,637 - INFO - 127.0.0.1 - - [01/Jul/2024 21:54:28] "GET /admin_dashboard HTTP/1.1" 200 -
+2024-07-01 21:54:28,651 - INFO - 127.0.0.1 - - [01/Jul/2024 21:54:28] "[36mGET /static/admin_dashboard.css HTTP/1.1[0m" 304 -
+2024-07-01 21:57:43,626 - ERROR - Error deleting user from MySQL: 1451 (23000): Cannot delete or update a parent row: a foreign key constraint fails (`diabetespred`.`predictions`, CONSTRAINT `predictions_ibfk_1` FOREIGN KEY (`patient_id`) REFERENCES `users` (`id`))
+2024-07-01 21:57:43,629 - INFO - 127.0.0.1 - - [01/Jul/2024 21:57:43] "[32mPOST /delete_user/151373 HTTP/1.1[0m" 302 -
+2024-07-01 21:57:43,635 - INFO - 127.0.0.1 - - [01/Jul/2024 21:57:43] "GET /admin_dashboard HTTP/1.1" 200 -
+2024-07-01 21:57:43,649 - INFO - 127.0.0.1 - - [01/Jul/2024 21:57:43] "[36mGET /static/admin_dashboard.css HTTP/1.1[0m" 304 -
+2024-07-01 21:59:36,947 - INFO -  * Detected change in 'C:\\Users\\ryanm\\Desktop\\diabetes\\app.py', reloading
+2024-07-01 21:59:37,280 - INFO -  * Restarting with stat
+2024-07-01 21:59:39,402 - WARNING -  * Debugger is active!
+2024-07-01 21:59:39,406 - INFO -  * Debugger PIN: 142-167-814
+2024-07-01 22:01:28,578 - INFO -  * Detected change in 'C:\\Users\\ryanm\\Desktop\\diabetes\\app.py', reloading
+2024-07-01 22:01:28,754 - INFO -  * Restarting with stat
+2024-07-01 22:02:44,436 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-01 22:02:44,436 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-01 22:02:44,437 - INFO -  * Restarting with stat
+2024-07-01 22:02:45,640 - WARNING -  * Debugger is active!
+2024-07-01 22:02:45,644 - INFO -  * Debugger PIN: 142-167-814
+2024-07-01 22:02:50,397 - INFO - 127.0.0.1 - - [01/Jul/2024 22:02:50] "[35m[1mGET /admin_dashboard HTTP/1.1[0m" 500 -
+2024-07-01 22:02:50,474 - INFO - 127.0.0.1 - - [01/Jul/2024 22:02:50] "[36mGET /admin_dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-07-01 22:02:50,600 - INFO - 127.0.0.1 - - [01/Jul/2024 22:02:50] "[36mGET /admin_dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-07-01 22:02:50,643 - INFO - 127.0.0.1 - - [01/Jul/2024 22:02:50] "[36mGET /admin_dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-07-01 22:02:50,659 - INFO - 127.0.0.1 - - [01/Jul/2024 22:02:50] "[36mGET /admin_dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-07-01 22:02:55,908 - INFO - 127.0.0.1 - - [01/Jul/2024 22:02:55] "GET / HTTP/1.1" 200 -
+2024-07-01 22:02:55,914 - INFO - 127.0.0.1 - - [01/Jul/2024 22:02:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-01 22:03:00,353 - INFO - 127.0.0.1 - - [01/Jul/2024 22:03:00] "GET /register HTTP/1.1" 200 -
+2024-07-01 22:03:00,367 - INFO - 127.0.0.1 - - [01/Jul/2024 22:03:00] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-07-01 22:03:01,737 - INFO - 127.0.0.1 - - [01/Jul/2024 22:03:01] "GET /login HTTP/1.1" 200 -
+2024-07-01 22:03:01,750 - INFO - 127.0.0.1 - - [01/Jul/2024 22:03:01] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2024-07-01 22:03:02,770 - INFO - 127.0.0.1 - - [01/Jul/2024 22:03:02] "GET /admin_login HTTP/1.1" 200 -
+2024-07-01 22:03:02,783 - INFO - 127.0.0.1 - - [01/Jul/2024 22:03:02] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-07-01 22:03:11,862 - INFO - 127.0.0.1 - - [01/Jul/2024 22:03:11] "[31m[1mPOST /admin_login HTTP/1.1[0m" 400 -
+2024-07-01 22:03:20,460 - INFO - 127.0.0.1 - - [01/Jul/2024 22:03:20] "GET /admin_register HTTP/1.1" 200 -
+2024-07-01 22:03:20,478 - INFO - 127.0.0.1 - - [01/Jul/2024 22:03:20] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-07-01 22:03:35,997 - INFO - 127.0.0.1 - - [01/Jul/2024 22:03:35] "[31m[1mPOST /admin_register HTTP/1.1[0m" 400 -
+2024-07-01 22:03:52,293 - INFO -  * Detected change in 'C:\\Users\\ryanm\\Desktop\\diabetes\\app.py', reloading
+2024-07-01 22:03:52,508 - INFO -  * Restarting with stat
+2024-07-01 22:03:53,975 - WARNING -  * Debugger is active!
+2024-07-01 22:03:53,975 - INFO -  * Debugger PIN: 142-167-814
+2024-07-01 22:04:08,686 - INFO - 127.0.0.1 - - [01/Jul/2024 22:04:08] "[32mPOST /admin_register HTTP/1.1[0m" 302 -
+2024-07-01 22:04:08,695 - INFO - 127.0.0.1 - - [01/Jul/2024 22:04:08] "GET /admin_login HTTP/1.1" 200 -
+2024-07-01 22:04:08,742 - INFO - 127.0.0.1 - - [01/Jul/2024 22:04:08] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-07-01 22:04:17,298 - INFO - 127.0.0.1 - - [01/Jul/2024 22:04:17] "[32mPOST /admin_login HTTP/1.1[0m" 302 -
+2024-07-01 22:04:17,308 - INFO - 127.0.0.1 - - [01/Jul/2024 22:04:17] "GET /admin_dashboard HTTP/1.1" 200 -
+2024-07-01 22:04:17,327 - INFO - 127.0.0.1 - - [01/Jul/2024 22:04:17] "[36mGET /static/admin_dashboard.css HTTP/1.1[0m" 304 -
+2024-07-01 22:04:21,492 - ERROR - Error deleting user from MySQL: 1451 (23000): Cannot delete or update a parent row: a foreign key constraint fails (`diabetespred`.`predictions`, CONSTRAINT `predictions_ibfk_1` FOREIGN KEY (`patient_id`) REFERENCES `users` (`id`))
+2024-07-01 22:04:21,494 - INFO - 127.0.0.1 - - [01/Jul/2024 22:04:21] "[32mPOST /delete_user/151707 HTTP/1.1[0m" 302 -
+2024-07-01 22:04:21,501 - INFO - 127.0.0.1 - - [01/Jul/2024 22:04:21] "GET /admin_dashboard HTTP/1.1" 200 -
+2024-07-01 22:04:21,515 - INFO - 127.0.0.1 - - [01/Jul/2024 22:04:21] "[36mGET /static/admin_dashboard.css HTTP/1.1[0m" 304 -
+2024-07-01 22:04:23,451 - INFO - 127.0.0.1 - - [01/Jul/2024 22:04:23] "GET /report HTTP/1.1" 200 -
+2024-07-01 22:04:23,465 - INFO - 127.0.0.1 - - [01/Jul/2024 22:04:23] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-07-02 18:14:27,770 - INFO - 127.0.0.1 - - [02/Jul/2024 18:14:27] "GET /admin_dashboard HTTP/1.1" 200 -
+2024-07-02 18:14:28,080 - INFO - 127.0.0.1 - - [02/Jul/2024 18:14:28] "[36mGET /static/admin_dashboard.css HTTP/1.1[0m" 304 -
+2024-07-02 18:23:12,947 - INFO - 127.0.0.1 - - [02/Jul/2024 18:23:12] "GET /admin_dashboard HTTP/1.1" 200 -
+2024-07-02 18:23:12,965 - INFO - 127.0.0.1 - - [02/Jul/2024 18:23:12] "[36mGET /static/admin_dashboard.css HTTP/1.1[0m" 304 -
+2024-07-02 18:23:38,675 - INFO - 127.0.0.1 - - [02/Jul/2024 18:23:38] "GET /admin_dashboard HTTP/1.1" 200 -
+2024-07-02 18:23:38,705 - INFO - 127.0.0.1 - - [02/Jul/2024 18:23:38] "[36mGET /static/admin_dashboard.css HTTP/1.1[0m" 304 -
+2024-07-02 18:24:37,569 - INFO -  * Detected change in 'C:\\Users\\ryanm\\Desktop\\diabetes\\app.py', reloading
+2024-07-02 18:24:41,740 - INFO -  * Restarting with stat
+2024-07-02 18:25:07,569 - WARNING -  * Debugger is active!
+2024-07-02 18:25:07,575 - INFO -  * Debugger PIN: 142-167-814
+2024-07-02 18:25:07,854 - INFO - 127.0.0.1 - - [02/Jul/2024 18:25:07] "GET /admin_dashboard HTTP/1.1" 200 -
+2024-07-02 18:25:07,885 - INFO - 127.0.0.1 - - [02/Jul/2024 18:25:07] "GET /report HTTP/1.1" 200 -
+2024-07-02 18:25:07,921 - INFO - 127.0.0.1 - - [02/Jul/2024 18:25:07] "GET / HTTP/1.1" 200 -
+2024-07-02 18:25:08,037 - INFO - 127.0.0.1 - - [02/Jul/2024 18:25:08] "[36mGET /static/report.css HTTP/1.1[0m" 304 -
+2024-07-02 18:25:10,846 - INFO - 127.0.0.1 - - [02/Jul/2024 18:25:10] "GET /admin_dashboard HTTP/1.1" 200 -
+2024-07-02 18:25:10,893 - INFO - 127.0.0.1 - - [02/Jul/2024 18:25:10] "[36mGET /static/admin_dashboard.css HTTP/1.1[0m" 304 -
+2024-07-02 18:31:29,646 - INFO - 127.0.0.1 - - [02/Jul/2024 18:31:29] "GET / HTTP/1.1" 200 -
+2024-07-02 18:31:29,670 - INFO - 127.0.0.1 - - [02/Jul/2024 18:31:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-02 18:31:32,063 - INFO - 127.0.0.1 - - [02/Jul/2024 18:31:32] "GET / HTTP/1.1" 200 -
+2024-07-02 18:31:32,077 - INFO - 127.0.0.1 - - [02/Jul/2024 18:31:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-07-02 18:31:34,105 - INFO - 127.0.0.1 - - [02/Jul/2024 18:31:34] "GET /register HTTP/1.1" 200 -
+2024-07-02 18:31:34,124 - INFO - 127.0.0.1 - - [02/Jul/2024 18:31:34] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
