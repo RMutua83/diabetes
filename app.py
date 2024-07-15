@@ -44,7 +44,7 @@ def register():
         hashed_password = bcrypt.hashpw(password.encode('utf-8'), bcrypt.gensalt()).decode('utf-8')
         with get_db_connection() as conn:
             cursor = conn.cursor()
-            cursor.execute("INSERT INTO users (id, name, password) VALUES (%s, %s, %s)", (user_id, name, hashed_password))
+            cursor.execute("INSERT INTO health_promoters (promoterId, promoterName, promoterPassword) VALUES (%s, %s, %s)", (user_id, name, hashed_password))
             conn.commit()
         flash('Registration successful! Please log in.', 'success')
         return redirect(url_for('login'))
@@ -57,7 +57,7 @@ def login():
         user_id, password = request.form['id'], request.form['password']
         with get_db_connection() as conn:
             cursor = conn.cursor()
-            cursor.execute("SELECT id, password FROM users WHERE id = %s", (user_id,))
+            cursor.execute("SELECT promoterId, promoterPassword FROM health_promoters WHERE promoterId = %s", (user_id,))
             user = cursor.fetchone()
             if user and bcrypt.checkpw(password.encode('utf-8'), user[1].encode('utf-8')):
                 session['user_id'] = user[0]
@@ -76,11 +76,11 @@ def logout():
 @app.route('/admin_register', methods=['GET', 'POST'])
 def admin_register():
     if request.method == 'POST':
-        name, password = request.form['name'], request.form['password']
+        name, email, password = request.form['name'], request.form['email'], request.form['password']
         hashed_password = bcrypt.hashpw(password.encode('utf-8'), bcrypt.gensalt()).decode('utf-8')
         with get_db_connection() as conn:
             cursor = conn.cursor()
-            cursor.execute("INSERT INTO health_administrators (name, password) VALUES (%s, %s)", (name, hashed_password))
+            cursor.execute("INSERT INTO health_administrators (healthName, healthEmail, healthPassword) VALUES (%s,%s, %s)", (name, email, hashed_password))
             conn.commit()
         flash('Admin registration successful! Please log in.', 'success')
         return redirect(url_for('admin_login'))
@@ -93,7 +93,7 @@ def admin_login():
         name, password = request.form['name'], request.form['password']
         with get_db_connection() as conn:
             cursor = conn.cursor()
-            cursor.execute("SELECT id, password FROM health_administrators WHERE name = %s", (name,))
+            cursor.execute("SELECT healthName, healthPassword FROM health_administrators WHERE healthName = %s", (name,))
             admin = cursor.fetchone()
             if admin and bcrypt.checkpw(password.encode('utf-8'), admin[1].encode('utf-8')):
                 session['admin_id'] = admin[0]
@@ -110,9 +110,9 @@ def admin_dashboard():
         return redirect(url_for('admin_login'))
     with get_db_connection() as conn:
         cursor = conn.cursor()
-        cursor.execute("SELECT id, name FROM users")
+        cursor.execute("SELECT promoterId, promoterName FROM health_promoters")
         users = cursor.fetchall()
-    return render_template('admin_dashboard.html', users=users)
+    return render_template('admin_dashboard', users=users)
 
 # Home page
 @app.route('/')
@@ -133,8 +133,8 @@ def prediction():
             with get_db_connection() as conn:
                 cursor = conn.cursor()
                 cursor.execute("""INSERT INTO predictions 
-                                (patient_id, pregnancies, glucose, blood_pressure, skin_thickness, insulin, bmi, diabetes_pedigree, age, result) 
-                                VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)""",
+                                (promoterId, pregnancies, glucose, blood_pressure, skin_thickness, insulin, bmi, diabetes_pedigree, age, result) 
+                                VALUES ( %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)""",
                                (session['user_id'], *data[0], result))
                 conn.commit()
             flash('Prediction result stored successfully!', 'success')
