@@ -112,7 +112,7 @@ def admin_dashboard():
         cursor = conn.cursor()
         cursor.execute("SELECT promoterId, promoterName FROM health_promoters")
         users = cursor.fetchall()
-    return render_template('admin_dashboard', users=users)
+    return render_template('admin_dashboard.html', users=users)
 
 # Home page
 @app.route('/')
