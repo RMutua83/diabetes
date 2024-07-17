@@ -34,7 +34,11 @@ classifier, scaler = train_and_save_model()
 
 # Establish a database connection
 def get_db_connection():
-    return mysql.connector.connect(host="localhost", user="root", password="", database="diabetespred")
+    return mysql.connector.connect(
+        host="localhost", 
+        user="root", 
+        password="", 
+        database="diabetespred")
 
 # User registration
 @app.route('/register', methods=['GET', 'POST'])
